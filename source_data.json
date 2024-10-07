@@ -67,6 +67,15 @@
             "author": "Jakob Jentsch z Prahy",
             "number": 26,
             "radius": 5000
+        }, {
+            "coordinates": [15.3742272, 50.4535183],
+            "name": "Vysoká bota vojevůdce Švejdy",
+            "text": [
+                "Na hoře Šebín u Jičína ztratil prý vojevůdce Švejda v bitvě botu. Dnes je ukryta v hoře. Až se hora zazelená, Švejda přijede a bude ji hledat. U hory se sejdou velké zástupy rytířů na bělouších a dojde k velké válce."
+            ],
+            "author": "Ign. Kraus z Luštěnic",
+            "number": 44,
+            "radius": 5000
         }
         
     ]
