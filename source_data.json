@@ -1,0 +1,73 @@
+{
+    "places":[
+        {
+            "coordinates": [16.1907103, 49.9309694],
+            "name": "Nebeští vojáci u Vysokého Mýta",
+            "text": [
+                "Čtvrt hodiny cesty od Vysokého Mýta východním směrem leží půvabný lesík Dráby. Uprostřed je údolí, kde se prý o štědrovečerní půlnoci zjevují „nebeští vojáci“. Jsou to ohnivé postavy, které tančí za pronikavých zvuků trubek a po několika minutách zmizí."
+            ],
+            "author": "J. Toman z Vysokého Mýta",
+            "number": 1,
+            "radius": 5000
+        },
+        {
+            "coordinates": [15.2243989, 50.1464367],
+            "name": "Vojáci v Oškobrhu",
+            "text": [
+                "Nedaleko Kolína se zdvíhá kopec, kterému se v okolí říká Oškobrh. V něm mají přebývat rytíři svatého Václava, kteří z něj v létě o půlnoci vycházejí, aby se procvičili ve zbrani. Hlavy však nemají na krku, nýbrž drží je v podpaží. Prohánějí se po obdělaných polích, ale ráno po nich není v půdě jediné stopy.",
+                "Na úpatí kopce stál malý statek. Jednou v poledne se tam právě chystali usednout ke stolu, když v tom si děvečka vzpomněla, že nedala prasatům. Vyšla tedy ven a otevřela chlév, aby jim nasypala krmení. Přitom jí jedno prase uteklo a nechtělo se dát chytit. Nakonec vběhlo do jeskyně v hoře. Děvečka, která se bála, že jí doma vynadají, vběhla plná strachu za zvířetem dovnitř. Tam se celá udivená zastavila, když spatřila spící vojáky. Přistoupil k ní stařec a požádal ji, aby zametla podlahu a smetí vynesla ven. Děvečka to udělala; když je však vynesla na denní světlo, proměnilo se v ryzí zlato. Pospíchala domů a viděla, že čeleď právě vstává od stolu. Když se jich ptala, zda tak dlouho jedli, odpověděli, že je to právě rok, co vyšla z domu, aby chtila prase"
+            ],
+            "author": "A. Kröschel z Kolína",
+            "number": 7,
+            "notes": [
+                "Doubravská hora, něměcky Schlossberg"
+            ],
+            "radius": 5000
+        },
+        {
+            "coordinates": [13.8601669, 50.6384400],
+            "name": "Sedmispáči",
+            "text": [
+                "V zámeckém vrchu u Teplic prý spí nekolik rytířů už 700 let a říká se jim proto Sedmispáči. Až se jednou Němcům zle povede, vyjdou jim rytíři z hory na pomoc. Potůček na úpatí vrchu se často zbarví do žluta močí koní, kteří stojí uvnitř, a na vrchu samotném leží kameny, v nichž je otisk jejich kopyt. Dříve vedla kolem zámeckého vrchu zeď; z ní už ale nezbylo nic než brána, kterou rytíři vjíždějí a vyjíždějí. Kolem brány prý obchází od půlnoci do jedné velký silní muž bez hlavy."
+            ],
+            "author": "A. Brückner z Ústí",
+            "number": 8,
+            "notes": [
+                "Doubravská hora, něměcky Schlossberg"
+            ],
+            "radius": 5000
+        },
+        {
+            "coordinates": [13.2334272, 50.5807039],
+            "name": "Turecká pláň",
+            "text": [
+                "Nedaleko saské vsi Kühnheide se rozprostírá bažinatá oblast, která je v okolí známá pod názvem Turecká pláň. Jméno dostala po tureckém regimentu, který tu zapadl, když chtěl proniknout do hor. O velikonočním týdnu ze čtvrtka na pátek jsou tu prý vidět modré plamínky a slyšet turecká muzika a dusot koní."
+            ],
+            "number": 9,
+            "radius": 5000
+        },
+        {
+            "coordinates": [16.3059622, 50.5716986],
+            "name": "Švédové v Křinickém lese",
+            "text": [
+                "V jednom lesíku nedaleko Křinic je prý pochováno mnoho Švédů. Často tam lidé nacházejí koňské podkovy. Před vypuknutím války je také slyšet buben. Není to tak dávno, co šel lesíkem sedlák - jeho syn dosud žije. Byl opilý. Vtom ho napadlo, že tu odpočívá švédský tambur, a zavolal: Bubeníku, jestli tu opravdu jsi, ozvi se! Kolem něj hned všechno oživlo a než se vzpamatoval, obklopil ho houfec vojáků. Tambur tloukl na buben. Pak se obrátil k opilci a řekl mu, aby se už nikdy neopovažoval rušit je v klidu, nebo se mu zle povede. Tentokrát z toho sedlák vyvázl jen s úlekem."
+            ],
+            "author": "F. Kahler z Broumova",
+            "number": 11,
+            "radius": 5000
+        },
+        {
+            "coordinates": [14.5199147, 50.1979947],
+            "name": "Bílá paní u Měšic",
+            "text": [
+                "Severně od Měšic leží bažantnice a uprostřed ní půvabné pastviště s potůčkem. Na břehu potoka stojí smuteční vrby, které sklánějí své větve až k vodě.",
+                "Jednou kolem půlnoci šli přes pastviště dva mladí lidé a uviděli bílou paní, jak se prochází kolem břehů potoka. Sotva paní oba noční tuláky zahlédla, zamířila k nim, ale ti se dali na útěk. Říká se, že chtěla dát oběma tulákům za vyučenou. Když si lidé druhý den pastviště prohlíželi, našli prošlapanou pěšinku v místech, kde se bílá paní procházela, ale ta nevedla ani ven, ani dovnitř bažantnice.",
+                "Na pastvišti už chtěli jednou vysázet stromy, ale všechny sazenice zašly kromě smutečních vrb, kterým se na březích potoka dařilo. Lidé také věří, že stromy bezprostředně sousedící s pastvištěm pomalu zajdou a časem upadne i celá bažantnice, a teprve až k tomu dojde, bílá paní tu přestane po nocích obcházet."
+            ],
+            "author": "Jakob Jentsch z Prahy",
+            "number": 26,
+            "radius": 5000
+        }
+        
+    ]
+}
