@@ -67,7 +67,8 @@
             "author": "Jakob Jentsch z Prahy",
             "number": 26,
             "radius": 5000
-        }, {
+        },
+        {
             "coordinates": [15.3742272, 50.4535183],
             "name": "Vysoká bota vojevůdce Švejdy",
             "text": [
@@ -76,7 +77,8 @@
             "author": "Ign. Kraus z Luštěnic",
             "number": 44,
             "radius": 5000
-        }, {
+        },
+        {
             "coordinates": [14.9366719, 50.3229586],
             "name": "Smrtka",
             "text": [
@@ -84,6 +86,16 @@
             ],
             "author": "Ign. Kraus z Luštěnic",
             "number": 53,
+            "radius": 5000
+        },
+        {
+            "coordinates": [15.2685000, 49.9517778],
+            "name": "Bílá paní v klášteře",
+            "text": [
+                "Když má v ženském klášteře v Kutné Hoře někdo zemřít, zjeví se o půlnoci na chodbě bílá paní a zpívá nábožné písně. Slečna, která to vyprávěla, ji sama viděla. Šla jednou pozdě v noci po chodbě; vtom uviděla sedět před jedněmi dveřmi bílou paní, která zpívala nábožnou píseň. Vystrašená běžela za představenou kláštera a řekla jí, co viděla. Ta ji ale poučila: příště nikam neutíkej, jinak by se ti samotné mohlo něco stát. Bílá paní znamená smrt. A vskutku krátce nato zemřela klášterní kuchařka."
+            ],
+            "author": "Adolf Bloch z Mladé Boleslavi",
+            "number": 54,
             "radius": 5000
         }
         
