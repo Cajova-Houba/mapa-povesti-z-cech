@@ -76,6 +76,15 @@
             "author": "Ign. Kraus z Luštěnic",
             "number": 44,
             "radius": 5000
+        }, {
+            "coordinates": [14.9366719, 50.3229586],
+            "name": "Smrtka",
+            "text": [
+                "V Luštěnicích lidé věří na smrtku. Když má zemřít ženatý muž, zjeví se jeho ženě bílá paní. Přijde komínem a čeká na ni v kuchyni. Občas přitom vydává zvuky, jako když se muchlá papír. Pokud se takový zvuk ozve, nesmí se už vdova znovu vdát. I muži, kterému má zemřít žena, se bílá paní zjevuje, ale přichází k jeho lůžku o půlnoci."
+            ],
+            "author": "Ign. Kraus z Luštěnic",
+            "number": 53,
+            "radius": 5000
         }
         
     ]
