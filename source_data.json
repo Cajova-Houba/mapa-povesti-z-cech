@@ -219,7 +219,7 @@
             "text": [
                 "Divé ženy v okolí Týna nad Vltavou jsou vysoké postavy a je na ně strach pohledět, tváře mají pokryté štětinatými bradavicemi a široká ústa. Pravé oko je černé a sedí hlouběji než levé, které je modré. Rozcuchané rudé vlasy jim padají až do pasu.",
                 "Přebývají v rozeklaných a spletitých podzemních jeskyních, které ozařuje jen matné světlo olejové lampy a kam vedou jediné padací, mechem obrostlé a kamením pokryté dveře; jsou tak začarované, že je žádný člověk není schopen najít.",
-                "Divoženky jsou zlí duchové, kteří člověku všemožně škodí; pastevcům často kradou ze stáda dobytek, z pole odnášejí snopy a trhají ovoce ze stromů; lup pak odvlečou do jeskyně. Obilí rozemelou a umějí z něj péct chleba. Kamna stojí hned blízko padacích dveří. Nemohou-li se jinak dostat k po- travě, uštvou vysokou zvěř nebo si nachytají ryby.",
+                "Divoženky jsou zlí duchové, kteří člověku všemožně škodí; pastevcům často kradou ze stáda dobytek, z pole odnášejí snopy a trhají ovoce ze stromů; lup pak odvlečou do jeskyně. Obilí rozemelou a umějí z něj péct chleba. Kamna stojí hned blízko padacích dveří. Nemohou-li se jinak dostat k potravě, uštvou vysokou zvěř nebo si nachytají ryby.",
                 "Dokážou ochočit jedovaté hady a zneškodnit je; vůbec se vyznají v tajných silách přírody; z nejrůznějších bylinek a kořínků připravují masti, kterými si natírají těla, než vyletí z jeskyně, aby byly lehčí; ale křídla nemají žádná. Milují hudbu a za prudkých bouřek tančí jak divé.",
                 "Za potravou vyrážejí nejraději za bouřlivé noci. Nejsou vdané, ale pro- tože chtějí mít děti, kradou je lidem a tak udržují svůj rod. Aby uloupily dítě, nepotřebují použít násilí, ale uchylují se ke lsti. Při svých loupeživých výpravách drží obvykle v rukou sukovici, kterou ovíjí had, nebo drží hada přímo v ruce.",
                 "Za jasných měsíčních nocí se divoženky scházejí na březích rybníků a řek a těší se z jejich rovné, měsícem ozářené hladiny a z třpytících se hvězd. To proto, že uvnitř jeskyní mají málo světla. Také rády sedávají na břehu a předou len na košile a sukně."
@@ -236,6 +236,16 @@
             ],
             "author": "Emmanuele Klauczek z Prahy",
             "number": 109,
+            "radius": 4000
+        },
+        {
+            "coordinates": [13.8676142, 48.7775469],
+            "name": "Divé ženy v Plešném jezeře",
+            "text": [
+                "V Plešném jezeře bydlí divé ženy, které vábí lidi a stahují je do svých příbytků. Jsou divého vzezření, neuspořádané vlasy jim vlají ve větru a temeno hlav pokrývá jen malá červená čepička. Živí se kořínky sladičky, která roste na dně jezera a má mít čarovnou moc. Říká se, že divé ženy z jezera kradou novorozené děti a vyměňují je za vlastní. Podvržené děti jsou velmi ošklivé a celý den křičí. Aby se jich člověk zbavil, musí mít zmíněné kořínky sladičky. Pak jimi dítěti sváže ruce a nohy, pohladí je několikrát metličkou a řekne: Vezmi si svoje a přines mi moje! Křik dítěte pohne divou ženu k tomu, aby ukradené dítě vrátila. – Také se věří, že přijde-li na svět mrtvé dítě, je to vinou divých žen. Když se takový případ stane, uřízne otec mrtvého dítěte hlavu teleti, postaví se na most, hodí ji přes svou hlavu do vody a spěchá bez ohlížení domů. Mrtvě narozené dítě pak obživne."
+            ],
+            "author": "Der Bote aus dem Böhmerwalde - Posel ze Šumavy, 1863",
+            "number": 118,
             "radius": 4000
         }
         
