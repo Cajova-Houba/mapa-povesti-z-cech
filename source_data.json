@@ -97,6 +97,57 @@
             "author": "Adolf Bloch z Mladé Boleslavi",
             "number": 54,
             "radius": 5000
+        },
+        {
+            "coordinates": [13.4506825, 50.0218814],
+            "name": "Tetka s perem",
+            "text": [
+                "Ve Vysoké Libyni lidé věří na tetku s perem. To je černá paní, která nosí za kloboukem bílé pero. Zjevuje se v jednom domě u Vysoké Libyně vždy, když někdo onemocní a má zemřít."
+            ],
+            "author": "J. Ábeles z Vysoké Libyně",
+            "number": 56,
+            "radius": 5000
+        },
+        {
+            "coordinates": [14.8592175, 49.9940347],
+            "name": "Divoká honba u Kostelce nad Černými Lesy",
+            "text": [
+                "V Kostelci se pověst o divokém lovu vypraví takto: divoký lovec tu táhne na Štědrý den o půlnoci se svým průvodem povětřím. Před ním jde stařec a varuje lidi před nebezpečím. Za ním jede žena na koni bez sedla a uzdy, po její pravici kluše divoký lovec na ohnivém vraníkovi, za nimi družina s vyjícími psy a loveckým hlaholem. Jeden hospodář se o půlnoci vracel z města domů, když tu náhle za sebou uslyšel lovecké volání. Ohlédl se a spatřil starce, který na něho volal, aby se měl na pozoru. Hospodář se vrhl tváří na zem a průvod ho šťastně minul. Jindy šel řemeslnický učeň v noci lesem, když tu zaslechl štěkot psů a les se zvláštně rozšuměl. Chlapec se vrhl tváří k zemi, ale jak průvod letěl kolem, zvědavě zdvihl hlavu; od té doby je pomatený."
+            ],
+            "author": "Oskar Hussa",
+            "number": 64,
+            "radius": 5000
+        },
+        {
+            "coordinates": [15.0825489, 50.4025611],
+            "name": "Křížek",
+            "text": [
+                "Poblíž města Mladá Boleslav leží rozsáhlý les, známý pod jménem Domousnický. V něm se měl v dřívějších dobách vždy o půlnoci rozléhat strašlivý hukot. Mladík, kterého pojala zvědavost, se tam vypravil, ulehl pod keř a čekal, co se bude dít. O půlnoci se náhle zdvihl velký vítr a lesem se přihnal rytíř na bílém koni, sledován početnou loveckou družinou. Hned v první řadě jela krásná dívka, která si hocha všimla a upozornila na něj rytíře. Rytíř ho chytil pod krkem, ale tam měl mladík náhodou křížek, který mu darovala matka. Když rytíř křížek spatřil, hlasitě vykřikl a uháněl i s družinou pryč. Od těch dob už se v těch končinách nikdy neukázal."
+            ],
+            "author": "J. Winterberg z Mladé Boleslavi",
+            "number": 65,
+            "radius": 5000
+        },
+        {
+            "coordinates": [12.9502233, 50.5575903],
+            "name": "Zuřivé vojsko u Slatin",
+            "text": [
+                "Roku 1626 jel mladý Rudolf ze Schmertzingu, zeman a dědic förstelské kovárny, v přiopilém stavu sám z Annabergu a řekl si, že se pustí přes Slatiny přímou cestou k Scheibenberským mlýnům. Nechal se však svést z cesty loveckým pokřikem a štěkotem psů a zabloudil v bažinách, kde se jeho kůň napůl uvízlý v bahně zastavil. Zeman sám nakonec našel cestu ven, zavolal na projíždějícího vozku, nechal se dovézt domů, převlékl se a svolal lidi, aby mu koně z bahna s pomocí tyčí a provazů vytáhli. Podobně se dělo i starému knězi, který se vydal časně zrána lesem z Loučné pod Klínovcem do Annabergu; uprostřed lesa najednou zaslechl lovecké pokřiky a velký lomoz v době, kdy v lese nikdo nepracoval ani nelovil. Vozka se brzy vzpamatoval a řekl: To je zuřivé vojsko od Slatin, pane, pojeďme ve jménu Božím dál a nic se nám nestane."
+            ],
+            "author": "Gebhart, Rakouské pověsti, s. 224",
+            "number": 71,
+            "radius": 10000
+        },
+        {
+            "coordinates": [15.1084044, 50.3930869],
+            "name": "Dvanáct jezdců",
+            "text": [
+                "Švec z Řitonic šel jednou s přítelem přes pole. Po chvíli řekl: Dneska v noce možná zažiješ věci, jaké jsi ještě neviděl. Hlavně zachovej klid! Když se dostali před půlnocí do lesa, nakreslil švec křídou kruh a postavil se i s přitelem dovnitř. O půlnoci se v lese ozvalo strašlivé dunění a kolem se přehnalo dvanáct ozbrojených jezdců. Sotva oba muže spatřili, vyzvali je, aby je následovali. Ale ti dva se nehnuli z místa, a tak skupina jen prolétla kolem.",
+                "O těchto dvanácti jezdcích se v Domousnicích vypráví toto: žil jednou nesmírně bohatý hrabě, který nic dobrého nevykonal a jen shromažďoval majetek. Když umřel, odneslo si ho oněch dvanáct jezdců i s poklady. Ty zakopali v nedalekém lese a hlídali je. Aby se k nim člověk dostal, musel by všech dvanáct jezdců vysvobodit, což se stane tehdy, když jednoho po druhém přemůže v boji. Jednou se mladý sedlák vracel z nedalekého kostela ze mše. Měl žízeň, napil se v lese vody a usnul. O půlnoci ho probudil veliký rachot a když otevřel oči, spatřil dvanáct jezdců a uprostřed nich železnou kasu. Sedlák se pokřižoval a zvolal: Ježíšmarjá! Nato jezdci nechali kasu být a za velkého nářku a bědování uháněli pryč. Sedlák si kasu schoval. Od té doby už nikdo o dvanácti jezdcích neslyšel."
+            ],
+            "author": "J. Winterberg z Mladé Boleslavi",
+            "number": 84,
+            "radius": 5000
         }
         
     ]
