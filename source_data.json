@@ -148,6 +148,95 @@
             "author": "J. Winterberg z Mladé Boleslavi",
             "number": 84,
             "radius": 5000
+        },
+        {
+            "coordinates": [13.7006744, 49.3210106],
+            "name": "Tomášský vůz",
+            "text": [
+                "V Horažďovicích jezdí o Tomášské noci svatý Tomáš v ohnivém voze přes náměstí až ke hřbitovu. Tam už na něho čekají všichni mrtví, kteří se jmenují Tomáš, vítají ho a pomáhají svému patronu z vozu. Svatý Tomáš pak přejde i s doprovodem ke kříži, který je rozpálený doruda a vyzařuje paprsky, poklekne u něj a modlí se. Po skončené modlitbě vstane, udělí svým jmenovcům svaté požehnání a zmizí za křížem. Všichni Tomášové se pak opět uloží do hrobu.",
+                "Vůz však pokračuje v cestě do další vsi. Lakotný soudce z Buzic ho jed- nou potkal, když byl necelých dvacet kroků od hřbitova. Okamžitě padl na kolena a zvolal: Svatý Tomáši, ochraň mě! Ale svatý Tomáš už ve voze nebyl a kočí, který volajícího poznal, vyšlehl lakomému soudci ohnivým bičem obě oči."
+            ],
+            "author": "Vernaleken, Mýty a obyčeje, s. 96",
+            "number": 87,
+            "radius": 5000
+        },
+        {
+            "coordinates": [13.6941508, 50.6206647],
+            "name": "Strašidelné spřežení v Oseku",
+            "text": [
+                "Jedním z opatů kláštera v Oseku byl Hieronymus Bösneker, který dodnes přežívá ve vyprávění lidu. Mezi mnoha pověstmi, jež se o něm šíří, je nejpodstatnější tato: Jedné noci, když hlídač v noci procházel klášterními dvory, ozvalo se u brány zaklepání a dovnitř vešel právě zesnulý opat Hieronymus. Protože se zjevení opakovala, ohlásil je hlídač na patřičném místě, kde se mu snažili jeho obavy vymluvit a zároveň mu přikázali, aby spěšně uvědomil opatova nástupce, kdyby se mu tvář zesnulého znovu zjevovala. Uklidněný muž tedy nastoupil zpátky do služby. O půlnoci se u brány vedoucí k Hrdlovkám znovu ozvalo bušení, brána se otevřela a čtyři černí koně s frkáním vtáhli dovnitř lehký kočár, v němž seděl zesnulý. Na hlídačovo volání přispěchal tehdejší zbožný a bohabojný prelát Kajetán v ornátu, v němž sloužil u oltáře. Mezi ním a strašidelným hostem se rozpředl hovor v latině. Zbožný Kajetán hned provedl hosta dveřmi letního sálu, který už byl připraven, ven do zahrady, a později bylo opět vidět ponurou postavu, jak ujíždí lipovou alejí k Hrdlovce. Tuto alej původně opat založil. Záhy nato se spustila prud- ká bouřka a do jedné z lip v aleji uhodil blesk, až se převrátila, její koruna se zabořila do země a kořeny čněly vzhůru. Od té chvíle už nebylo nic vidět ani slyšet. Vnuk nočního hlídače Waitzendörfer, kterému je sedmdesát let, žije dodnes v Račeticích jako učitel."
+            ],
+            "author": "Gebhart, Rakouské pověsti, s. 221",
+            "number": 93,
+            "radius": 5000
+        },
+        {
+            "coordinates": [13.1320403, 50.4653019],
+            "name": "Maribyla",
+            "text": [
+                "Nedaleko Přísečnice je hora jménem Bartelwulfenberg. Před lety na ní údajně stál zámek. Jeho majitel měl dceru, která navštěvovala ženský klášter. Tam však měla poměr s jedním rytířem, musela z kláštera uprchnout a zemřela v bídě. Od té doby se často zjevuje u Přísečnice v Císařském lese a je všeobecně známá pod jménem Maribyla. Na levé ruce nosí plechovou rukavici. Jednou prý jel sedlák z Nové Vsi do lesa pro dřevo, když vtom se spřežení zastavilo a nemohlo dál. Muž se ohlédl a spatřil na konci vozu stařenu, kterou hned podle plechové rukavice poznal. Maribyla ho prosila, aby ji svezl, on však namítl, že je moc těžká, a když nechtěla slézt, uhodil ji tak, že spadla. Když se sedlák vrátil domů, ulehl a do osmi dnů zemřel. Ale jeho mrtvola zmizela. Teprve po letech našli lidé v lese při kácení starých stromů kostru, v níž podle amuletu poznali pohřešovaného. Několik ženců sekalo trávu na kraji Císařského lesa. V poledne, když ve vsi vyzváněly zvony, se jim zjevila Maribyla a nabádala je, aby se pomodlili. Ty ale přemohla lenost. Když pak šli ke studánce, aby se napili, našli v ní místo vody krev. Jeden z nich se chtěl přesvědčit, že tomu tak opravdu je, a strčil do bahnité půdy hůl. Nato se zjevila Maribyla obklopená průhlednou mlhou, vyřkla zaklínadlo a ženci se proměnili v hromádku popela.",
+                "Jdou-li lidé do lesa nasbírat lesní plody, často se jim Maribyla zjeví a za- vede je do neproniknutelného houští. Začnou-li láteřit, ponechá je osudu, pomodlí-li se však, zavede je na místa, kde je hodně lesních plodů a odkud snadno najdou cestu domů."
+            ],
+            "author": "J. Gaudel z Chomutova",
+            "number": 98,
+            "radius": 10000
+        },
+        {
+            "coordinates": [12.5734100, 50.2962706],
+            "name": "Lesní střelec",
+            "text": [
+                "V Krušných horách v malé vesnici Rotava u Kraslic si lidé hodně vyprávějí o lesním střelci. Má to být muž, který o půlnoci obchází v nedalekém lese. Seká přitom vší silou do stromů a způsobuje velký hluk. Kromě toho plaší divokou zvěř a potlouká se všelijak po lese, dokud neodbije hodina duchů. Přitom je slyšet, jak štve psy. Proto mu lidé říkají lesní střelec. Zachází stále hlouběji do lesa, až se v něm nakonec ztratí.",
+                "Má také ve zvyku zavádět hluboko do houští lidi, aby zabloudili. Jednou se vracel z lesa domů dřevorubec. Nešel dlouho, když vtom se setmělo jako o půlnoci a v blízkosti se ozvaly silné rány sekerou. Muž si dodal odvahy a vydal se za zvuky, protože si myslel, že jde o zloděje dřeva. Když přišel na místo, odkud rány vycházely, spatřil neznámého muže v loveckém oděvu, jak seká sekerou do kmenů. Dřevorubec se ho zeptal: Co jsi zač? - Lesní střelec! odpověděl neznámý a sekal dál. Dřevorubec ho sledoval. K půlnoci už zašli hluboko do lesa, když vtom muž ucítil silnou ránu sekerou a napůl mrtvý se svalil k zemi. Když se druhého dne probral, stáli kolem něj lidé, kteří ho našli. – V Oboře se stalo, že ducha spatřili za bílého dne; pak je zlomyslný a nikdo nevyvázne bez pohromy. Jakýsi chuďas ho uviděl a třikrát na něho zavolal: Střelče, střelče, střelče! Lesní duch se otočil a řekl: Za to, že mě pokoušíš, proměníš se v pařez a budeš tu stát tak dlouho, dokud tě náhoda nevysvobodí.",
+                "V tom okamžiku se muž proměnil v pařez a zapustil kořeny. Na vysvobození ale nečekal dlouho. Jednoho dne se v těch místech objevili uhlíři; jeden z nich si všiml pařezu a řekl si, že na něm v klidu spořádá svůj oběd. Položil na něj chleba, rozřízl ho nožem a přitom zajel i do pařezu, a nakonec do něj zarazil ještě sekeru. V té chvíli se ozval výkřik, pařez zmizel a před očima uhlířů stál zakletý muž."
+            ],
+            "author": "Otto Mühlstein z Kraslic",
+            "number": 99,
+            "radius": 10000
+        },
+        {
+            "coordinates": [12.6589181, 49.7425469],
+            "name": "Lesní duch",
+            "text": [
+                "U Starého Sedliště stojí les, kam často chodili zloději. Ale od jisté doby už tam nezajde jediný, protože sotva se chystá zdvihnout poražený strom, něco na něho skočí a on se toho nezbaví, dokud nedoběhne zpátky domů."
+            ],
+            "author": "W. Pfeiffer z Jablonce",
+            "number": 101,
+            "radius": 10000
+        },
+        {
+            "coordinates": [13.2567289, 50.4851419],
+            "name": "Hejkálek",
+            "text": [
+                "Stranou vsí Křimov a Nová Ves se až k Výsluní táhne jedlový les zvaný Tenich. Když jde v noci tím lesem poutník a hlasitě zavolá Hej, hej! Hu, hu!, les mu zdálky odpoví. Nato mu něco skočí na záda a nutí ho, aby to donesl do příští vsi, kde zmizí. Tak se jednou stalo hajnému, který musel břímě vléct až do Křimova. Tam se mu zdálo, že z něj něco seskočilo, ale bylo to tak rychlé, že nestačil nic zahlédnout."
+            ],
+            "author": "J. Gaudel z Chomutova",
+            "number": 102,
+            "radius": 5000
+        },
+        {
+            "coordinates": [14.4205442, 49.2233172],
+            "name": "Lesní panna",
+            "text": [
+                "Divé ženy v okolí Týna nad Vltavou jsou vysoké postavy a je na ně strach pohledět, tváře mají pokryté štětinatými bradavicemi a široká ústa. Pravé oko je černé a sedí hlouběji než levé, které je modré. Rozcuchané rudé vlasy jim padají až do pasu.",
+                "Přebývají v rozeklaných a spletitých podzemních jeskyních, které ozařuje jen matné světlo olejové lampy a kam vedou jediné padací, mechem obrostlé a kamením pokryté dveře; jsou tak začarované, že je žádný člověk není schopen najít.",
+                "Divoženky jsou zlí duchové, kteří člověku všemožně škodí; pastevcům často kradou ze stáda dobytek, z pole odnášejí snopy a trhají ovoce ze stromů; lup pak odvlečou do jeskyně. Obilí rozemelou a umějí z něj péct chleba. Kamna stojí hned blízko padacích dveří. Nemohou-li se jinak dostat k po- travě, uštvou vysokou zvěř nebo si nachytají ryby.",
+                "Dokážou ochočit jedovaté hady a zneškodnit je; vůbec se vyznají v tajných silách přírody; z nejrůznějších bylinek a kořínků připravují masti, kterými si natírají těla, než vyletí z jeskyně, aby byly lehčí; ale křídla nemají žádná. Milují hudbu a za prudkých bouřek tančí jak divé.",
+                "Za potravou vyrážejí nejraději za bouřlivé noci. Nejsou vdané, ale pro- tože chtějí mít děti, kradou je lidem a tak udržují svůj rod. Aby uloupily dítě, nepotřebují použít násilí, ale uchylují se ke lsti. Při svých loupeživých výpravách drží obvykle v rukou sukovici, kterou ovíjí had, nebo drží hada přímo v ruce.",
+                "Za jasných měsíčních nocí se divoženky scházejí na březích rybníků a řek a těší se z jejich rovné, měsícem ozářené hladiny a z třpytících se hvězd. To proto, že uvnitř jeskyní mají málo světla. Také rády sedávají na břehu a předou len na košile a sukně."
+            ],
+            "author": "Vernaleken, Mýty a obyčeje, s. 248",
+            "number": 106,
+            "radius": 10000
+        },
+        {
+            "coordinates": [14.0175522, 49.6853839],
+            "name": "Podvržené dítě na poutní cestě",
+            "text": [
+                "V lesích u Příbrami žije mnoho divoženek. Jednou vzaly ženě z Prahy dítě a vyměnily je za své. Podvržené dítě rostlo, ale nenaučilo se mluvit. Matce se to zdálo divné a podnikla s ním pouť na Svatou Horu u Příbrami, aby se mu skrze svatou Matku Boží dostalo řeči. Jak šla s němým dítětem na zádech křivoklátskými lesy, ozval se znenadání z lesa hlas: Mikši, Mikši, kam jdeš? Na pouť! odpověděl chlapec na ženiných zádech; najednou dostal řeč. Jeho matka, divoženka, však překvapené Pražačce řekla: Dobře ses o mé dítě starala, já o tvoje také. Až ti je přinesu, budeš z něj mít radost."
+            ],
+            "author": "Emmanuele Klauczek z Prahy",
+            "number": 109,
+            "radius": 4000
         }
         
     ]
