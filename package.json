@@ -1,5 +1,5 @@
 {
-  "name": "openlayers-test",
+  "name": "mapy-povesti-z-cech",
   "version": "1.0.0",
   "scripts": {
     "start": "vite",
