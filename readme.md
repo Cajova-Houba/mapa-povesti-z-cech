@@ -40,5 +40,5 @@ The source data are placed in the file `source_data.json`. One myth is one item.
 - `author`: Author of the myth, optional
 - `number`: Number of the myth (according to the source book), optional, not used yet
 - `notes`: An array of notes (e.g. additional info for given myth), optional, not used yet
-- `radius`: A radius of the circle representing the myth on the map, optional, defaults to 15000
+- `radius`: A radius of the circle marking the myth on the map, optional, defaults to 15000
 

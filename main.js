@@ -7,6 +7,7 @@ import Overlay from 'ol/Overlay.js';
 import {OSM, Vector as VectorSource} from 'ol/source.js';
 import data from './source_data.json';
 import {fromLonLat} from 'ol/proj';
+import {Style, Fill, Stroke} from 'ol/style.js';
 
 // source book ISBN: 978-80-7428-011-5
 const SOURCE_CITATION="GROHMANN, Joseph Virgil. Pověsti z Čech. Fabula. Praha: Plot, 2009. ISBN 978-80-7428-011-5."
@@ -112,11 +113,21 @@ map.on('singleclick', function (evt) {
 });
 
 function initFeatures(data) {
+  const featureStyle = new Style({
+    stroke: new Stroke({
+      color: [255,0,0,1],
+      width: 2
+    }),
+    fill: new Fill({color: [255,0,0,0.3]}),
+  });
+
   const features = data.map((item) => {
-    return new Feature({
+    var f = new Feature({
       geometry: new Circle(fromLonLat(item.coordinates), item.radius || DEFAULT_FEATURE_RADIUS),
       featureData: item,
     });
+    f.setStyle(featureStyle);
+    return f;
   });
 
   return features;
