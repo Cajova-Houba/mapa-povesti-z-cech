@@ -5,7 +5,7 @@ WORKDIR /opt/build
 COPY . .
 
 RUN npm install
-RUN npm run build
+RUN npm run build-prod
 
 FROM docker.io/busybox:1.36-uclibc
 

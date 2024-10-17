@@ -4,6 +4,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
+    "build-prod": "vite build --config vite.config.prod.js",
     "serve": "vite preview"
   },
   "devDependencies": {
