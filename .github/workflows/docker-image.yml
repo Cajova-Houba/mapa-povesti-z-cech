@@ -33,7 +33,7 @@ jobs:
         with:
           method: service-account
           k8s-url: https://cajova-houba.rocks:6443
-          k8s-secret: ${{ secrets.KUBERNETS_SECRET }}
+          k8s-secret: ${{ secrets.KUBERNETES_SECRET }}
       - name: Checkout source code
         uses: actions/checkout@v3
       - name: Deploy to the Kubernetes cluster
