@@ -247,6 +247,28 @@
             "author": "Der Bote aus dem Böhmerwalde - Posel ze Šumavy, 1863",
             "number": 118,
             "radius": 4000
+        },
+        {
+            "coordinates": [14.6657408, 50.1899136],
+            "name": "Rusalky",
+            "text": [
+                "V okolí Brandýsa a Kutné Hory jsou rusalky pannami nevšední krásy. Přebývají ve stojatých vodách, v potocích a mokřinách. Jsou jen napůl oblečené a jejich oděv je bílý nebo barvy mořské zeleně. Zjevují se pouze v poledne či o půlnoci. Opustí-li svůj příbytek o půlnoci, šíří kolem sebe zvláštní líbeznou zář. Tančí pak na březích řek a potoků. Zjeví-li se v poledne, říkají lidé, že přijde déšť. Často vábí mladíky při koupání do hloubky svým krásným zpěvem, a pak je utopí. V Brandýse lidé věří, že chrání duše, které vodník drží pod pokličkou. Brání před ním jeho hrnečky, když ho někdy napadne duše osvobodit, a proto žijí s vodníkem v neustálých sporech."
+            ],
+            "author": "R. Czermak z Prahy",
+            "number": 119,
+            "radius": 10000
+        },
+        {
+            "coordinates": [14.0493136, 49.9161706],
+            "name": "Mikuda proměněná ve zlato",
+            "text": [
+                "Od Housin a Želkovic, místa žárovního a pohřebního, se skrze vine potok okolo Suchomast, hory Kodiše (Kotýzu) a skály pod Tmaní, a vlévá se později do říčky Litavky. V tomto potoce prý pod zmíněným vrchem rybařil jistý Smil. Často při práci slýchával přelíbezný zpěv. Nejdřív nevěděl, odkud ty líbezné zvuky přicházejí, až se mu přece podařilo spatřit u vody rusalku. Zamiloval se do ní a požádal ji, aby mu pověděla, co by měl dělat, aby se mu v potoce naplemenilo hojně ryb. Rusalka mu poradila, aby natrhal jisté listy ze stromů a bylin a naházel je rybám do vody. Rybář tak učinil a pokaždé měl šťastný lov, takže se z něho stal brzy bohatý člověk. Vzal si rusalku za manželku a zplodil s ní dceru Květnu.",
+                "Když dívka vyrostla, zavolala si ji matka k sobě a ukázala jí v okolí zlatou studánku, která měla tu vlastnost, že všechno, co se do ní spustilo, hned se proměnilo ve zlato. Proměněná věc se však nesměla z vody vytahovat holou rukou, ale proutkem, který jí matka hned dala. Nato dcerušku ještě jednou políbila a zmizela. Smil, kterého nad ztrátou choti nedokázalo nic utěšit, se vyšplhal na Kodišskou skálu, vrhl se zoufale do vody a utonul.",
+                "Tak zůstala Května sama a opuštěná. Tamní vládkyně, čarodějnice Mikuda, se dívky ujala a vzala ji k sobě na hrad na vysoké skále. Tam se jí Května jednou svěřila se svým tajemstvím, ale nezjevila jí, kde se studánka nalézá. Žádostivá Mikuda by se byla ráda dozvěděla, kde pramen najít, a tak na dívku naléhala, aby jí místo ukázala. Ta se bránila s tím, že jí to matka zakázala. Čarodějnice Květnu mrskala, až ubožačka slzela. Když jí místo slz vyhrkly zlaté perličky, Mikuda ji bila ještě víc, až jí dívka o studánce pověděla, ale neřekla, že se nesmí vody dotknout rukou. Čarodějnice šla s Květnou k prameni, a všechno, co do vody spustila, se proměnilo ve zlato; když pak po věcech nedočkavě sáhla rukou, sama se proměnila ve zlato. Května vzala proutek a zlatou ženu i se všemi věcmi ze studánky opatrně vytáhla a sama pak na hradě Kodiš šťastně vládla."
+            ],
+            "author": "Krolmus III, s. 23",
+            "number": 121,
+            "radius": 2000
         }
         
     ]
