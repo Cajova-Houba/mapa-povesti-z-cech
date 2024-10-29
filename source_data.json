@@ -268,7 +268,99 @@
             ],
             "author": "Krolmus III, s. 23",
             "number": 121,
+            "radius": 5000
+        },
+        {
+            "coordinates": [13.1978200, 49.5606258],
+            "name": "Horečka",
+            "text": [
+                "V okolí Merklína prý řádí nejhorší horečky, jichž se člověk jen těžko zbavuje. Přenášejí je na lidi ženští démoni žijící ve studánkách, z kterých se v určitou dobu nesmí pít. Chce-li se člověk horečky zbavit, musí si obléct čisté prádlo a pak přehodit v určitou hodinu vysvlečenou košili přes střechu. Podaří-li se mu to napoprvé, uzdraví se ihned, musí-li však svůj vrh několikrát opakovat, horečka pomine až po určité době. Během ní se však člověk po- nesmí ukázat v noci venku, protože na něho číhá víla, která se mu chce mstít za to, že ji od sebe násilím vyhnal."
+            ],
+            "author": "J. Gruber z Merklína",
+            "number": 122,
+            "radius": 5000
+        },
+        {
+            "coordinates": [15.1902383, 50.3689008],
+            "name": "Vodní panna z posvícení",
+            "text": [
+                "Při posvícení v Kozodírkách se mezi tanečnice vmísila krásná dívka, kterou nikdo neznal. Všichni chlapci s ní chtěli tančit; když s ní ale někdo z nich dotančil, vracel se pokaždé s kapkami vody na bradě. To u nich vzbudilo zvědavost a za každou cenu se chtěli dozvědět, co je dívka zač. Rozhodli se proto, že až půjde domů, doprovodí ji. Ona to ale rozhodně odmítla a náhle jako by se po ní slehla zem. Jeden z chlapců, který stál venku, však viděl, jak vyšla ze sálu a utíká pryč. Pospíchal za ní, ale nemohl ji dohnat a jen viděl, jak se zastavila u rybníka, třikrát tleskla do dlaní a zmizela. Od té doby ji ve vsi nikdo neviděl."
+            ],
+            "author": "J. Winterberg z Mladé Boleslavi",
+            "number": 124,
             "radius": 2000
+        },
+        {
+            "coordinates": [13.5032228, 50.5492114],
+            "name": "Panna z horského jezera",
+            "text": [
+                "Jde-li poutník od Jezeří v Krušných horách směrem ke Kundraticím-Boudám, vyjde z lesa na pláň, táhnoucí se od Jezeří až ke Kundraticím a od Starého Žeberka až dolů k silnici. Její dolní část tvoří krásná louka, které se říká Sporná. U jezeřského lesa je rybníček silně porostlý rákosím. Několik set metrů nad ním vytéká z kamenité půdy potůček. Pramenu se říká Žabí studánka a je v něm vždy velmi dobrá, čistá a chladná voda.",
+                "Před dávnými dobami sem často scházívala žeberská panna, aby se v rybníce vykoupala. Vídali ji chlapci z Bud, kteří tu pásli dobytek. Byla napůl rybou a napůl ženou. Jednou pásl na louce sám chlapec krávy. Vtom se před ním zjevila panna ze Zeberka a ptala se ho, zda by ji chtěl vysvobodit. Dá mu prý tolik peněz, aby si mohl celou louku koupit. Pasáček souhlasil. Nato ho panna požádala, aby od rybníka poodešel a nevracel se, dokud na něho neza- mává. Vrátí-li se bez dovolení dřív, zle se mu povede. Pasáček se tedy rychle od rybníka vzdálil a zatímco hlídal krávy, panna se koupala. Když skončila, zamávala mu, ale on se vrátil a začal jí spílat a házet po ní kamení. S pláčem se panna vrátila na Žeberk a příští noci ji bylo slyšet bědovat a naříkat až v Dřínově. Dlouho se neodvažovala k rybníku vrátit a vykoupat se. Často se také lidem ukazovala v podobě staré ženy.",
+                "Jedna žena z Jezeří se vydala do lesa, aby si dovezla dříví. Když došla k Žeberku, nalámala větve a posbírala kousky dřeva. Vtom spatřila stařenu, která ji při práci pozorně sledovala. Kam jdete? zeptala se jí. Do hor! odpo- věděla stařena a zmizela jí z očí. Jezeřská žena si ještě stačila všimnout, že zjevení za sebou vleče cár šatů; byla to tedy žeberská panna."
+            ],
+            "author": "Vernaleken, Mýty a obyčeje, s. 197",
+            "number": 125,
+            "radius": 10000
+        },
+        {
+            "coordinates": [14.8688350, 50.3721819],
+            "name": "Vodní žínka z Krnska a Zámostí",
+            "text": [
+                "Mezi Krnskem a Zámostím u Mladé Boleslavi je rybník. Jednou za soumraku šla kolem žena, když vtom uslyšela za hrází zvuky, jako když někdo vylévá z člunu vodu. Zamířila k hrázi a na břehu rybníka spatřila sedět ženu v červených šatech. Oslovila ji, ale jen za sebou zjevení uslyšelo lidský hlas, vrhlo se do vody a zmizelo. Byla to vodní žínka. Někdy prý vychází z vody s harfou a kouzelně zpívá."
+            ],
+            "author": "Adolf Bloch z Mladé Boleslavi",
+            "number": 127,
+            "radius": 2000
+        },
+        {
+            "coordinates": [13.2038289, 49.5557867],
+            "name": "Vodník od Merklína",
+            "text": [
+                "Kdo jde z Merklína směrem na Přeštice, spatří velký rybník, který z jedné strany obklopuje skála, z druhé les. Tam v létě obchází mužíček, z jehož kabátu kape voda. Občas ho je vidět, jak sedí u vody a kouří fajfku nebo si zpívá. Také rád věší různé věci na nějaký stojan u vody a nabízí je lidem ke koupi; když nechtějí, dává jim je darem. Tím je láká, aby je mohl utopit."
+            ],
+            "author": "J. Gruber z Merklína",
+            "number": 131,
+            "radius": 3000
+        },
+        {
+            "coordinates": [14.7743153, 50.2516817],
+            "name": "Vodník jako žába",
+            "text": [
+                "V češtině se bytosti žijící ve vodě říká vodník. Z Předměřic do Tuřic chodil denně pro maso muž, který vždy prstem řezníkovi ukázal na kus, který si přeje. To řezníka rozčilovalo a když mu neznámý zase jednou ukázal prstem na maso, neváhal a usekl mu ho. Muž nehnul ani brvou a nedal najevo, že by ho to nějak bolelo, naopak, klidně odešel. Dva dny nato šel stejný řezník do Předměřic. Zvolil pěšinu vedoucí údolím Jizery, když vtom mu do cesty skočila obrovská žába. Řezník se žábě podivil a šel za ní, aby si ji mohl lépe prohlédnout. Když však došel k vodě, proměnila se žába v muže, které- mu řezník usekl prst, a stáhla ho pod hladinu."
+            ],
+            "author": "Ign. Kraus z Luštěnic",
+            "number": 133,
+            "radius": 5000
+        },
+        {
+            "coordinates": [13.7028647, 49.3201619],
+            "name": "Vodník jako tele",
+            "text": [
+                "Vodník může také nabývat různých podob, jak věří lidé v Horažďovicích. Jednou vypadá jako člověk, jindy jako had, a pak na sebe zase vezme podobu jiného zvířete. Jednou se vracel řezník pozdě v noci kolem rybníka, když vtom zahlédl na hrázi velké tele. Šel k němu, prohlédl si je, a přestože se pod ním řádně prohýbal, vzal je na záda a nesl domů. Sotva však ušel několik kroků, musel si odpočinout, protože tele jako by bylo stále těžší. Až u vesnice mu zvíře samo seskočilo ze zad, rozběhlo se k vodě a volalo: Ted jsem tě dostal!"
+            ],
+            "author": "Ign. Kraus z Luštěnic",
+            "number": 134,
+            "radius": 20000
+        },
+        {
+            "coordinates": [15.0790739, 50.4017692],
+            "name": "Zelená čapka",
+            "text": [
+                "Jednou šel muž z Domousnic směrem na Březno. Za ním šel pořád neznámý muž v červeném kabátě se zelenou čepicí na hlavě a z vlasů mu bez ustání kapala voda. Po cestě ležely tři rybníky. Když muž došel k prostřednímu z nich, chytil ho červený kabátek se zelenou čapkou oběma rukama kolem pasu a snažil se ho stáhnout do vody, ale muž byl silák a vykroutil se mu. Přitom mu z hlavy strhl zelenou čapku. Nato se vodník rychle potopil a zmizel. Když se však muž chtěl čapky dotknout, roztekla se mu pod rukama."
+            ],
+            "author": "J. Winterberg z Mladé Boleslavi",
+            "number": 135,
+            "radius": 2500
+        },
+        {
+            "coordinates": [13.4527969, 50.0216231],
+            "name": "Ohnivý sud",
+            "text": [
+                "Ve Vysoké Libyni si vodník hrál dokonce na milence jednoho děvčete. Kam se posadil, tam po něm zůstalo mokro. U jedné vsi nedaleko Vysoké Libyně pral muž v rybníce kůže. Když byl s prací téměř hotov, uviděl vodníka, jak se k němu valí v podobě ohnivého sudu. Dal se před ním na útěk, ale čím rychleji běžel, tím rychleji se sud valil, takže muž jen s vypětím sil doběhl do vesnice."
+            ],
+            "author": "J. Ábeles z Vysoké Libyně",
+            "number": 136,
+            "radius": 15000
         }
         
     ]
