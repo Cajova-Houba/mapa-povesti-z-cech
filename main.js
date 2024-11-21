@@ -1,13 +1,13 @@
 import './style.css';
 import {Feature, Map, View} from 'ol';
-import {Circle} from 'ol/geom.js';
+import {Circle, Point} from 'ol/geom.js';
 import TileLayer from 'ol/layer/Tile';
 import VectorLayer from 'ol/layer/Vector';
 import Overlay from 'ol/Overlay.js';
-import {OSM, Vector as VectorSource} from 'ol/source.js';
+import {Cluster, OSM, Vector as VectorSource} from 'ol/source.js';
 import data from './source_data.json';
 import {fromLonLat} from 'ol/proj';
-import {Style, Fill, Stroke} from 'ol/style.js';
+import {Style, Fill, Stroke, Circle as CircleStyle, Text as TextStyle} from 'ol/style.js';
 
 // source book ISBN: 978-80-7428-011-5
 const SOURCE_CITATION="GROHMANN, Joseph Virgil. Pověsti z Čech. Fabula. Praha: Plot, 2009. ISBN 978-80-7428-011-5."
@@ -42,6 +42,15 @@ closer.onclick = function () {
   return false;
 };
 
+const STYLES = {
+  stroke:  new Stroke({
+    color: [255,0,0,1],
+    width: 2
+  }),
+  opaqueFill: new Fill({color: [255,255,255,1]}),
+  textFill: new Fill({color: '#000'}),
+}
+
 /**
  * Create an overlay to anchor the popup to the map.
  */
@@ -55,7 +64,39 @@ const overlay = new Overlay({
 });
 const overlays = [overlay];
 
+const styleCache = {};
+function clusterFeatureStyle(feature) {
+  const size = feature.get('features').length;
+  let style = styleCache[size];
+  if (!style) {
+    style = new Style({
+      image: new CircleStyle({
+        radius: 10,
+        stroke: STYLES.stroke,
+        fill: STYLES.opaqueFill,
+      }),
+      text: new TextStyle({
+        text: size.toString(),
+        fill: STYLES.textFill
+      }),
+    });
+    styleCache[size] = style;
+  }
+  return style;
+}
+
 const features = initFeatures(data.places);
+
+const featureSource = new VectorSource({features: features});
+
+const clusterSource = new Cluster({source: featureSource, distance: 40, geometryFunction: feature => new Point(feature.getGeometry().getCenter())});
+
+const mapLayer = new TileLayer({ source: new OSM() });
+
+const clusterLayer = new VectorLayer({
+  source: clusterSource,
+  style: clusterFeatureStyle
+});
 
 /**
  * Create the map.
@@ -64,15 +105,8 @@ const map = new Map({
   target: 'map',
   overlays: overlays,
   layers: [
-    new TileLayer({
-      source: new OSM()
-    }),
-
-    new VectorLayer({
-      source: new VectorSource({
-        features: features
-      })
-    })
+    mapLayer,
+    clusterLayer
   ],
   view: new View({
     center: PRAGUE_COORDINATES,
@@ -112,6 +146,7 @@ map.on('singleclick', function (evt) {
   overlay.setPosition(coordinate);
 });
 
+
 function initFeatures(data) {
   const featureStyle = new Style({
     stroke: new Stroke({
@@ -124,9 +159,10 @@ function initFeatures(data) {
   const features = data.map((item) => {
     var f = new Feature({
       geometry: new Circle(fromLonLat(item.coordinates), item.radius || DEFAULT_FEATURE_RADIUS),
+      // geometry: new Point(fromLonLat(item.coordinates)),
       featureData: item,
     });
-    f.setStyle(featureStyle);
+    //f.setStyle(featureStyle);
     return f;
   });
 
