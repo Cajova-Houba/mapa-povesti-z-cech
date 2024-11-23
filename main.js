@@ -55,23 +55,23 @@ closer.onclick = function () {
 
 const STYLES = {
   stroke:  new Stroke({
-    color: [0,255,0,1],
+    color: [0,110,0,1],
     width: 2
   }),
-  opaqueFill: new Fill({color: [255,255,255,1]}),
-  textFill: new Fill({color: '#000'}),
+  opaqueFill: new Fill({color: [153,255,153,1]}),
+  textFill: new Fill({color: [0,0,0,1]}),
   singleFeature: new Style({
       image: new CircleStyle({
         radius: CLUSTER_FEATURE_RADIUS,
         stroke: new Stroke({
-          color: [0,255,0,1],
+          color: [0,110,0,1],
           width: 2
         }),
-        fill: new Fill({color: [255,255,255,1]}),
+        fill: new Fill({color: [153,255,153,1]}),
       }),
       text: new TextStyle({
-        text: '',
-        fill: new Fill({color: '#000'})
+        text: '?',
+        fill: new Fill({color: [0,0,0,1]})
       }),
     })
 };
