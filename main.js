@@ -23,6 +23,16 @@ const DEFAULT_FEATURE_RADIUS = 15000;
 
 const PROJECTION = "EPSG:3857";
 
+const CLUSTER_DISTANCE = 30;
+
+const CLUSTER_MIN_DISTANCE = 0;
+
+/**
+ * Zoom level at which we switch from cluster to single feature view.
+ */
+const ZOOM_LAYER_SWITCH_THRESHOLD = 14;
+
+const CLUSTER_FEATURE_RADIUS = 12;
 
 /**
  * Elements that make up the popup.
@@ -45,11 +55,25 @@ closer.onclick = function () {
 
 const STYLES = {
   stroke:  new Stroke({
-    color: [255,0,0,1],
+    color: [0,255,0,1],
     width: 2
   }),
   opaqueFill: new Fill({color: [255,255,255,1]}),
   textFill: new Fill({color: '#000'}),
+  singleFeature: new Style({
+      image: new CircleStyle({
+        radius: CLUSTER_FEATURE_RADIUS,
+        stroke: new Stroke({
+          color: [0,255,0,1],
+          width: 2
+        }),
+        fill: new Fill({color: [255,255,255,1]}),
+      }),
+      text: new TextStyle({
+        text: '',
+        fill: new Fill({color: '#000'})
+      }),
+    })
 };
 
 
@@ -67,15 +91,18 @@ const overlay = new Overlay({
 const overlays = [overlay];
 
 const styleCache = {};
+
+/**
+ * Function to determine a style of a clustered features.
+ */
 function clusterFeatureStyle(feature) {
   const size = feature.get('features').length;
 
   // multiple pips => show as cluster
-  let style = styleCache[size];
-  if (!style) {
-    style = new Style({
+  if (size > 1) {
+    return new Style({
       image: new CircleStyle({
-        radius: 10,
+        radius: CLUSTER_FEATURE_RADIUS,
         stroke: STYLES.stroke,
         fill: STYLES.opaqueFill,
       }),
@@ -84,22 +111,32 @@ function clusterFeatureStyle(feature) {
         fill: STYLES.textFill
       }),
     });
-    styleCache[size] = style;
+  } else {
+    return STYLES.singleFeature;
   }
-  return style;
 }
 
 const features = initFeatures(data.places);
 
 const featureSource = new VectorSource({features: features});
 
-const clusterSource = new Cluster({source: featureSource, distance: 40, geometryFunction: feature => new Point(feature.getGeometry().getCenter())});
+// const clusterSource = new Cluster({source: featureSource, minDistance: CLUSTER_MIN_DISTANCE, distance: CLUSTER_DISTANCE, geometryFunction: feature => new Point(feature.getGeometry().getCenter())});
+const clusterSource = new Cluster({source: featureSource, minDistance: CLUSTER_MIN_DISTANCE, distance: CLUSTER_DISTANCE});
 
 const mapLayer = new TileLayer({ source: new OSM() });
 
+// this layer will be used on most zoom levels
 const clusterLayer = new VectorLayer({
   source: clusterSource,
-  style: clusterFeatureStyle
+  style: clusterFeatureStyle,
+  maxZoom: ZOOM_LAYER_SWITCH_THRESHOLD,
+});
+
+// this layer will be used on the highest zoom level
+const featureLayer = new VectorLayer({
+    source: featureSource, 
+    style: STYLES.singleFeature,
+    minZoom: ZOOM_LAYER_SWITCH_THRESHOLD
 });
 
 /**
@@ -110,13 +147,19 @@ const map = new Map({
   overlays: overlays,
   layers: [
     mapLayer,
-    clusterLayer
+    clusterLayer,
+    featureLayer
   ],
   view: new View({
     center: PRAGUE_COORDINATES,
     zoom: 8,
     projection: PROJECTION
   })
+});
+
+map.on('moveend', function(e) {
+  var newZoom = map.getView().getZoom();
+  console.log('zoom end, new zoom: ' + newZoom);
 });
 
 /**
@@ -133,49 +176,75 @@ map.on('singleclick', function (evt) {
 
   // no feature found => do nothing
   // or feature is not a cluster => do nothing
-  if (!clickedFeature || !clickedFeature.get('features')) {
+  if (!clickedFeature) {
     return;
   }
 
   // clear popup as to not show old content
   clearPopup(); 
 
-  // we use cluester as features
-  const featuresInCluster = clickedFeature.get('features');
+  // three possible cases
+  // 1. a feature symbolizing a cluster of multiple features clicked
+  // 2. a feature symbolizing a cluster of one feature clicked
+  // 3. a single feature clicked
 
-  // more than one feature in cluster => zoom in
-  if (featuresInCluster.length > 1) {
-    console.log(`Zooming in to cluster with ${featuresInCluster.length} features`);
-    const coordinates = featuresInCluster.map((r) => {
-      console.log(r);
-      console.log(r.getGeometry().getCenter());
-      return r.getGeometry().getCenter();
-    });
-    console.log(`coordinates: ${coordinates}`);
-    const extent = boundingExtent(coordinates);
-    map.getView().fit(extent, {duration: 1000, padding: [50, 50, 50, 50]});
+  // cases 1 and 2
+  if (clickedFeature.get('features')) {
+    console.log('Cluster clicked');
 
-  // only one feature in cluster => show popup with myth
-  } else {
-    const featureData = featuresInCluster[0].get('featureData');
-  
-    popupTitle.innerHTML = featureData['name'];
-  
-    // text is an array of paragraphs
-    const text = featureData['text'];
-    content.innerHTML = text.map((paragraph) => `<p>${paragraph}</p>`).join('');
-    
-    if (featureData['author']) {
-      popupAuthor.innerHTML = `${featureData['author']}`;
+    // we use cluester as features
+    const featuresInCluster = clickedFeature.get('features');
+
+    // more than one feature in cluster => zoom in
+    if (featuresInCluster.length > 1) {
+      console.log(`Zooming in to cluster with ${featuresInCluster.length} features`);
+      const coordinates = featuresInCluster.map((r) => {
+        console.log(r);
+        console.log(r.getGeometry().getCoordinates());
+        return r.getGeometry().getCoordinates();
+      });
+      console.log(`coordinates: ${coordinates}`);
+      const extent = boundingExtent(coordinates);
+      map.getView().fit(extent, {duration: 1000, padding: [50, 50, 50, 50]});
+
+    // only one feature in cluster => show popup with myth
+    } else {
+      showPopup(featuresInCluster[0].get('featureData'), coordinate);
     }
-    overlay.setPosition(coordinate);
+  } 
+  
+  // case 3
+  else if (clickedFeature.get('featureData')) {
+    console.log('Single feature clicked');
+    showPopup(clickedFeature.get('featureData'), coordinate);
   }
+
+  
 });
+
+/**
+ * Show popup with given feature data on given coordinates.
+ * 
+ * @param {*} featureData Feature data. See source_data for structure.
+ * @param {*} popupCoordinate Coordinates where to show the popup.
+ */
+function showPopup(featureData, popupCoordinate) {
+  popupTitle.innerHTML = featureData['name'];
+
+  // text is an array of paragraphs
+  const text = featureData['text'];
+  content.innerHTML = text.map((paragraph) => `<p>${paragraph}</p>`).join('');
+  
+  if (featureData['author']) {
+    popupAuthor.innerHTML = `${featureData['author']}`;
+  }
+  overlay.setPosition(popupCoordinate);
+}
 
 
 function createPipFeature(dataItem) {
   const feature = new Feature({
-    geometry: new Circle(fromLonLat(dataItem.coordinates), dataItem.radius || DEFAULT_FEATURE_RADIUS),
+    geometry: new Point(fromLonLat(dataItem.coordinates)),
     featureData: dataItem,
   });
   return feature;
