@@ -8,6 +8,7 @@ import {Cluster, OSM, Vector as VectorSource} from 'ol/source.js';
 import data from './source_data.json';
 import {fromLonLat} from 'ol/proj';
 import {Style, Fill, Stroke, Circle as CircleStyle, Text as TextStyle} from 'ol/style.js';
+import {boundingExtent} from 'ol/extent.js';
 
 // source book ISBN: 978-80-7428-011-5
 const SOURCE_CITATION="GROHMANN, Joseph Virgil. Pověsti z Čech. Fabula. Praha: Plot, 2009. ISBN 978-80-7428-011-5."
@@ -49,7 +50,8 @@ const STYLES = {
   }),
   opaqueFill: new Fill({color: [255,255,255,1]}),
   textFill: new Fill({color: '#000'}),
-}
+};
+
 
 /**
  * Create an overlay to anchor the popup to the map.
@@ -67,6 +69,8 @@ const overlays = [overlay];
 const styleCache = {};
 function clusterFeatureStyle(feature) {
   const size = feature.get('features').length;
+
+  // multiple pips => show as cluster
   let style = styleCache[size];
   if (!style) {
     style = new Style({
@@ -124,49 +128,61 @@ map.on('singleclick', function (evt) {
   const clickedFeature = map.forEachFeatureAtPixel(evt.pixel, (feature) => feature);
   const coordinate = evt.coordinate;
 
+  console.log(`clickedFeature: ${clickedFeature}, coordinate: ${coordinate}`);
+  console.log(clickedFeature);
+
   // no feature found => do nothing
-  if (!clickedFeature) {
+  // or feature is not a cluster => do nothing
+  if (!clickedFeature || !clickedFeature.get('features')) {
     return;
   }
 
   // clear popup as to not show old content
   clearPopup(); 
 
-  const featureData = clickedFeature.get('featureData');
+  // we use cluester as features
+  const featuresInCluster = clickedFeature.get('features');
 
-  popupTitle.innerHTML = featureData['name'];
+  // more than one feature in cluster => zoom in
+  if (featuresInCluster.length > 1) {
+    console.log(`Zooming in to cluster with ${featuresInCluster.length} features`);
+    const coordinates = featuresInCluster.map((r) => {
+      console.log(r);
+      console.log(r.getGeometry().getCenter());
+      return r.getGeometry().getCenter();
+    });
+    console.log(`coordinates: ${coordinates}`);
+    const extent = boundingExtent(coordinates);
+    map.getView().fit(extent, {duration: 1000, padding: [50, 50, 50, 50]});
 
-  // text is an array of paragraphs
-  const text = featureData['text'];
-  content.innerHTML = text.map((paragraph) => `<p>${paragraph}</p>`).join('');
+  // only one feature in cluster => show popup with myth
+  } else {
+    const featureData = featuresInCluster[0].get('featureData');
   
-  if (featureData['author']) {
-    popupAuthor.innerHTML = `${featureData['author']}`;
+    popupTitle.innerHTML = featureData['name'];
+  
+    // text is an array of paragraphs
+    const text = featureData['text'];
+    content.innerHTML = text.map((paragraph) => `<p>${paragraph}</p>`).join('');
+    
+    if (featureData['author']) {
+      popupAuthor.innerHTML = `${featureData['author']}`;
+    }
+    overlay.setPosition(coordinate);
   }
-  overlay.setPosition(coordinate);
 });
 
 
+function createPipFeature(dataItem) {
+  const feature = new Feature({
+    geometry: new Circle(fromLonLat(dataItem.coordinates), dataItem.radius || DEFAULT_FEATURE_RADIUS),
+    featureData: dataItem,
+  });
+  return feature;
+}
+
 function initFeatures(data) {
-  const featureStyle = new Style({
-    stroke: new Stroke({
-      color: [255,0,0,1],
-      width: 2
-    }),
-    fill: new Fill({color: [255,0,0,0.3]}),
-  });
-
-  const features = data.map((item) => {
-    var f = new Feature({
-      geometry: new Circle(fromLonLat(item.coordinates), item.radius || DEFAULT_FEATURE_RADIUS),
-      // geometry: new Point(fromLonLat(item.coordinates)),
-      featureData: item,
-    });
-    //f.setStyle(featureStyle);
-    return f;
-  });
-
-  return features;
+  return data.map((item) => createPipFeature(item));
 }
 
 function clearPopup() {
