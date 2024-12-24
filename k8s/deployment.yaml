@@ -23,7 +23,7 @@ spec:
         - name: docker-pull-secret
       containers:
         - name: mapa-povesti-z-cech
-          image: docker.io/cajovahouba/mapa-povesti-z-cech:11.0
+          image: docker.io/cajovahouba/mapa-povesti-z-cech:12.0
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
