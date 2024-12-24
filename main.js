@@ -7,7 +7,7 @@ import Overlay from 'ol/Overlay.js';
 import {Cluster, OSM, Vector as VectorSource} from 'ol/source.js';
 import data from './source_data.json';
 import {fromLonLat} from 'ol/proj';
-import {Style, Fill, Stroke, Circle as CircleStyle, Text as TextStyle} from 'ol/style.js';
+import {Icon, Style, Fill, Stroke, Circle as CircleStyle, Text as TextStyle} from 'ol/style.js';
 import {boundingExtent} from 'ol/extent.js';
 
 // source book ISBN: 978-80-7428-011-5
@@ -60,7 +60,8 @@ const STYLES = {
   }),
   opaqueFill: new Fill({color: [153,255,153,1]}),
   textFill: new Fill({color: [0,0,0,1]}),
-  singleFeature: new Style({
+  singleFeature: [
+    new Style({
       image: new CircleStyle({
         radius: CLUSTER_FEATURE_RADIUS,
         stroke: new Stroke({
@@ -69,11 +70,17 @@ const STYLES = {
         }),
         fill: new Fill({color: [153,255,153,1]}),
       }),
-      text: new TextStyle({
-        text: '?',
-        fill: new Fill({color: [0,0,0,1]})
+    }),
+    new Style({
+      image: new Icon({
+        anchor: [0.5, 0.5],
+        anchorXUnits: 'fraction',
+        anchorYUnits: 'fraction',
+        scale: 0.6,
+        src: 'icons/readme.svg',
       }),
-    })
+    }),
+  ]
 };
 
 
@@ -107,7 +114,7 @@ function clusterFeatureStyle(feature) {
         fill: STYLES.opaqueFill,
       }),
       text: new TextStyle({
-        text: size.toString(),
+        text: [size.toString(), 'bold 12px sans-serif'],
         fill: STYLES.textFill
       }),
     });
