@@ -371,7 +371,7 @@
             ],
             "author": "J. Ábeles z Vysoké Libyně",
             "number": 137,
-            "adius": 5000
+            "radius": 5000
         },
         {
             "coordinates": [14.809375472725264, 50.16678063762231],
@@ -381,7 +381,7 @@
             ],
             "author": "E. Grünbaum",
             "number": 140,
-            "adius": 5000
+            "radius": 5000
         },
         {
             "coordinates": [14.415956691822538, 49.22389465756518],
@@ -396,7 +396,7 @@
             ],
             "author": "Vernaleken, Mýty a obyčeje, s. 178",
             "number": 146,
-            "adius": 5000
+            "radius": 5000
         },
         {
             "coordinates": [13.531068071674358, 50.51654956262382],
@@ -409,7 +409,7 @@
             ],
             "author": "Vernaleken, Mýty a obyčeje, s. 191",
             "number": 147,
-            "adius": 5000,
+            "radius": 5000,
             "note": "V německém originále je jméno městečka Seesdtadtl, což by měly být Ervěnice: https://www.sagen.at/texte/sagen/oesterreich/allgemein/vernaleken/wassergeister_20.html"
         },
         {
@@ -420,8 +420,97 @@
             ],
             "author": "H. Ph. Cand. Ruschko z Člunku",
             "number": 152,
-            "adius": 5000
+            "radius": 5000
+        },
+        {
+            "coordinates": [14.50969734744865, 48.934983802663936],
+            "name": "Vodník jako flétnista",
+            "text": [ 
+                "Nedaleko Doubravice u Českých Budějovic si hrála kupa dětí ze vsi. Najednou se k nim přitočil muž, o kterém nevěděly, kde se tam vzal. Vytáhl z kapsy zvláštní vyřezanou flétnu a zahrál na ni několik melodií. Děti se rozveselily, začaly skákat a výskat. Za hry se flétnista vzdaloval a děti, okouzlené jeho písněmi, šly za ním, až na jedno, které zůstalo zpátky a dávalo pozor, kam ostatní jdou. Vidělo, že muž se i s dětmi blíží k rybníku. Tam uhodil hůlkou do vody, hladina se otevřela a muž zavedl děti dovnitř. Pak se za všemi voda zavřela. Poslední dítě se s křikem rozeběhlo ke vsi a rodičům vyprávělo, co se stalo. Ti se rozhodli, že si na vodníka počíhají a chytí ho, protože věděli, že je silný ve vodě, ale na suchu bezmocný. Po dlouhých a bezvýsledných pokusech se jim to nakonec podařilo a pohrozili mu, že ho vydají ohni, pokud děti nevrátí živé a zdravé a neodejde odtud. Vodník jim všechno slíbil, a tak ho pustili. Ještě téhož dne se děti vrátily, ale nepamatovaly si nic, než že si hrály a pak usnuly. O osm dní později však bylo vidět, jak z vln vyjíždí trakař tažený čtyřmi černými stvořeními, která vypadala jako kočky, a na trakaři byla naložená spousta předmětů prapodivných tvarů; úplně nahoře seděl vodník, kouřil fajfku a práskal bičem. Spřežení se pohybovalo neuvěřitelnou rychlostí a v krátké době zmizelo všem z očí. Od té doby nikdo o vodníkovi v okolí nic neslyšel."
+            ],
+            "author": "Vernaleken, Mýty a obyčeje, s. 175",
+            "number": 153,
+            "radius": 5000
+        },
+        {
+            "coordinates": [12.768922819439203, 50.36581508175871],
+            "name": "Bílá skála u Perninku",
+            "text": [ 
+                "bukovém lese u Perninku se zdvíhá vysoká skála, které se říká Bílá. O Velkém pátku se prý otevírá, vychází z pradávný sedlák a začne se sít pro následující rok. O příštím Velkém pátku vyroste totiž na místech, kde zasel, zlato. Kdo jde v tu dobu kolem, může to vidět, a kdo si část zlata posbírá, může jím rozmnožit svůj majetek."
+            ],
+            "author": "Meinl z Perninku",
+            "number": 154,
+            "radius": 5000
+        },
+        {
+            "coordinates": [14.729714156813511, 50.91209812268704],
+            "name": "Ludek nechává nahlédnout do budoucnosti",
+            "text": [ 
+                "Když se ve Varnsdorfu poprvé rozezněly zvony, sbalili si malincí lužičtí lidičkové – ludkové - svůj majeteček a vydali se na východ směrem k obci Hörnitz u Žitavy, kde se zabydleli v takzvané Široké hoře, přes niž dnes vede saská vojenská silnice. Když se zvony nakonec rozezvučely všude, ludkové se už vůbec neukazovali a existuje domněnka, že se zahrabali hluboko v zemi. V obci Hainewalde, která leží na úpatí Široké hory, dnes žije muž, který si v poledne před dvanácti lety vyšel na procházku na horu. Nebylo na ní ani živáčka a všude vládlo naprosté ticho. Právě když se těšil z nádherné vyhlídky, ucítil, že ho někdo tahá za šos kabátu. Polekaně se otočil a u nohou spatřil mužíčka s popelavě bledou tváří a zeleným čepcem, jak ustrašeně mrká a mžourá a naznačuje mu, aby šel za ním. Muž se sice nedokázal zbavit podivného pocitu, ale nakonec si dal říci a ludek ho vedl chodbami a stržemi sem a tam, až konečně dospěli do temné jeskyně, která se postupně rozjasnila. V tajuplném přítmí muž nespatřil živou duši a i jeho průvodce se někam vytratil.",
+                "Před jeho zraky se náhle začaly odvíjet revoluční události roku 1848, vyprávěl muž. Když jeskyně opět potemněla, celý zmatený ucítil, jak ho někdo opět tahá za šos. Ludek k němu přistoupil a vyvedl ho z chodeb pod širé nebe, kde mu na rozloučenou ještě řekl: Jdi a vyprávěj nevděčnému lidskému rodu, který nás svým zvoněním vyhnal, co jsi viděl a co jej v brzké budoucnosti čeká."
+            ],
+            "author": "Vernaleken, Mýty a obyčeje, s. 215",
+            "number": 157,
+            "radius": 5000
+        },
+        {
+            "coordinates": [14.704747432011894, 50.892335788784806],
+            "name": "Ludkové na svatbě",
+            "text": [ 
+                "Ve vyprávěních obyvatel Varnsdorfu a okolí hrají ludkové velkou roli. Usadili se především na jedné hoře mezi Šenovem a Žitavou, kde po nich dodnes zůstala ve skále díra. Pro obyvatele obcí byli neviditelní ludkové zátěží, neboť jim brali z domů chléb a další jídlo. Naštěstí objevili způsob, jak se těchto nežádoucích zlodějíčků zbavit. Věděli, že ludkové se nedotknou chleba se zapečenými semínky kmínu, protože kmín nesnášeli.",
+                "Jednou vypochodovali ludkové v řadě za sebou z díry a krátili si dlouhou chvíli v keřích na řečené hoře. Přitom náhodou zaslechli, jak selka z Wettigu volá na muže pracujícího na nedalekém poli, aby se vrátil domů a připravil svatbu. Ludkové si tedy řekli, že sedláka navštíví a prožijí u něho příjemný den.",
+                "Ještě než se vydali na cestu, připomněl jim jeden z nich, aby si nezapomněli vzít pláště, které je činí neviditelnými. Uslyšel to jiný rolník z Wetttigu, který také pracoval na poli, a napůl žertem, napůl vážně na ně zavolal, aby mu také jeden přinesli. Ludkové to skutečně udělali a dovolili mu, aby šel na svatbu s nimi. Varovali ho však, aby si neschovával ani s sebou domů nebral žádné jídlo ani pití či jiné zbytky ze svatby, nechce-li na sebe přivolat jejich hněv.",
+                "Mezitím se shromáždili i ostatní ludkové a zástup se v doprovodu ven- kovana vydal směrem k Wettigu. Když všichni dorazili ke vsi, přehodil si každý z nich na dané znamení přes sebe plášť, a totéž udělal i rolník. Od té chvíle byli očím smrtelníků neviditelní a mohli se bez obav vydat do domu, kde se konala svatba. Přestože byli nezvanými hosty, zaujali místa u stolu, a sice tak, že mezi dvěma svatebčany seděl vždy jeden ludek. A nastalo hodování, při němž se ani venkovan příliš nekrotil. Jenže svatební stůl nabízel takové množství dobrot, že se muž nakonec nezdržel, aby něco z přebytku neschoval domů ženě a dětem.",
+                "V tom okamžiku ale zmizel darovaný plášť, který ho dosud chránil, a on seděl uprostřed hostiny všem svatebčanům na očích. Ti se nemálo podivili, a nejvíc oba sousedé vpravo a vlevo, když mezi sebou zničehonic spatřili nezvaného a k tomu ještě nevhodně oblečeného hosta. Ze všech stran se na něho hrnuly otázky a zděšený muž v první chvíli nevěděl, co říct. Konečně ze sebe zkormouceně vysoukal, jak se věci seběhly, a hosté si s údivem vyslechli, že mezi nimi sedí také ludkové; mnohým z toho bylo najednou úzko.",
+                "Až teď si uměli vysvětlit, proč jídlo z mís tak rychle mizí. Z radosti nad vyřešenou záhadou nechali venkovana mezi sebou a pozvali ho dokonce, aby se dostavil i druhého dne. Muž pozvání s radostí přijal a přišel tentokrát slavnostně vystrojen, jako všichni ostatní. Ale přítomni byli druhého dne bezpochyby i ludkové, přestože je nikdo nepozval; i teď si totiž všichni vší- mali, jak rychle mizí jídlo ze stále nově přinášených mís.",
+                "A tak ludkové prováděli ve vsi i okolí všelijakou neplechu, dokud v obcích nebyly zavedeny zvony.",
+                "Ti z nich, kteří přebývali na hoře nebo v ní, si pronajali od sedláka pár povozů a nechali se odvézt do Lužice. Sedláka, který se toho úkolu ujal, bohatě odměnili, takže se z něho stal zámožný muž a také všichni jeho potomci se ještě z jeho majetku těšili.",
+                "Když se ludkové loučili, říkali: Zpátky přijdeme, až budou zvony odstraněny a „Sasko se zase vrátí k Čechám\". Pak prý podle nich nastanou lepší časy."
+            ],
+            "author": "",
+            "number": 158,
+            "radius": 5000,
+            "note": "Šenov bude v tomhle případě nejspíše německý Grossschönau"
+        },
+        {
+            "coordinates": [15.036856779503204, 50.892621512226015],
+            "name": "Dary ludků",
+            "text": [ 
+                "V Dětřichově u Frýdlantu si lidé vyprávějí, že ludkové často navštěvují křtiny a chodí za šestinedělkami. Ty je jako jediné mohou spatřit; ludkové u nich pod kamny nebo pod postelí něco pojedí a pak ženě donesou k posteli sušenky nebo něco podobného.",
+                "Šestinedělka, která ještě ležela v posteli a byla v pokoji sama, zaslechla najednou podivný šramot. Udiveně se rozhlédla a vidí, že dole u kamen je ve zdi malý otvor, kterým do místnosti prolézá malý šedivý mužíček, několikrát ji zdraví a míří k její posteli. Zdvořile ji oslovuje a prosí o svolení, aby u ní v pokoji mohla malá společnost uspořádat hostinu; dobře se jí prý za to odvděčí.",
+                "Šestinedělka, celá zvědavá, jaká společnost to k ní chce přijít, dá svolení a mužíček odejde. Záhy nato zaslechne žena nový, silnější šramot, malá šedivá bytůstka se objeví v otvoru, a za ní mnoho dalších mužíčků, kteří jako čiperní mravenci pronášejí otvorem malinké stolky a židle, rozestavují je a z koše plného pochoutek prostírají na připravené stolečky. Pak se z dálky ozvou tóny, postupně se blíží a stejným otvorem vejde několik hudebníků se strunnými i dechovými nástroji a celý průvod uzavře řada dalších oděných ludků. Společnost zaujme místa u tabule a za zvuků příjemné hudby se rozproudí živá, veselá zábava. Po jídle zazní taneční rytmy a ludkové se začnou jeden po druhém točit a natřásat v kole; vtom vtrhne znenadání do místnosti jiný šedivý mužíček, zalomí rukama a ustaraně zvolá:",
+                "Ó hrozná, hrozná novina! Matka Pumpová skonala!",
+                "Ta zpráva zní malým hostům v uších jako hrom; každý se dává co nejrychleji na útěk. Všechno, co leží po stolcích, je v mžiku sklizeno a odneseno k otvoru ve zdi, a místnost je náhle prázdná. Jen malý mužíček, který předtím žádal o svolení, zůstal; přešel k posteli šestinedělky a vyložil jí, že je náhlá smrt pramáti jejich rodu vyděsila a vyvolala v nich velký zármutek; všichni teď budou velmi nešťastní. Zdvořile šestinedělce poděkoval za to, že jim povolila vstoupit do svého pokoje, a jako dík jí jménem celé společnosti předal tři dary: zlatý prsten, stříbrný pohár a malý chléb z pšeničné mouky. Ty tři věci, poučil ji, jsou velmi důležité: dokud budou pohromadě, bude rodina stále větší, váženější a zámožnější. Proto je musí uchovávat jako svátost; prsten ale má zůstat vždy v rodině nejstaršího syna a má ho nosit jeho žena. S těmi slovy se zdvořile rozloučil a zmizel v otvoru ve zdi. Šestinedělce bylo, jako by se probudila ze sna, a také by to všechno měla za pouhý sen, kdyby se jí před očima netřpytily ty tři dary.",
+                "Rodina, které vyšla taková šťastná hvězda, byla svolána k poradě a žena všem vyložila, co se jí přihodilo. Všichni se radili, co učinit, aby zástavy budoucího štěstí rodu co nejlépe zajistili. Rozhodli se proto, že postaví pevnou kamennou věž a hluboko do jejího vnitřku vloží stříbrný pohár a pšeničný chléb, aby jim tyto blahodárné předměty nikdo nemohl vzít. Prsten pak vždy nosila na ruce obdarovaná. Po její smrti přecházel podle předpisu z jednoho člena rodiny na druhý a celý rod se od chvíle, kdy vlastnil kouzelné předměty, těšil stále většímu bohatství a vážnosti.",
+                "Ale protože člověk bývá často příčinou vlastního neštěstí, nebylo tomu ani teď jinak. Jedna z žen, která kouzelný prsten vlastnila, ho z nepozornosti ztratila a ať všichni hledali, jak chtěli, nemohli ho najít. Začali bědovat a obávali se hněvu bytostí, jejichž přízni se doposud těšili. A měli k tomu dobrý důvod; zanedlouho propukla nad starou věží, která zbylé dary chránila a udržovala rod pohromadě, silná bouřka, strašlivý blesk ji za velkého rachotu rozčísl ve dví a vážené rodinné svátosti v mžiku zmizely. Splnila se tak věštba doručitele darů; zatímco rodina se za jejich neporušeného vlastnictví těšila ochraně, po jejich ztrátě o ni přišla a rodinné bohatství se rok od roku zmenšovalo."
+            ],
+            "author": "Vernaleken, Mýty a obyčeje, s. 218",
+            "number": 159,
+            "radius": 5000
+        },
+        {
+            "coordinates": [12.336695072371318, 50.10085378130566],
+            "name": "Černí mužičkové na Komorní hůrce",
+            "text": [ 
+                "U Františkových Lázní se zdvíhá vrch jménem Komorní hůrka. Je v ní otvor, takzvaná trpasličí díra. Od pradávných dob tu prý bydlí malí černí mužíčkové, jejichž zjevení většinou přináší neštěstí. Jednou přišel k mladému sedlákovi v Klesti mužíček, který neměřil ani půldruhé stopy; na hlavě měl černý klobouk s perem a na sobě kabátek. Požádal sedláka o nocleh a ten mu rád vyhověl. Ráno však našel postel prázdnou a v ní spoustu peněz.",
+                "U Chebu žil jeden necitelný a zatvrzelý hajný. Když koupil jižně od Komorní hůrky řadu pozemků a nechal si tam postavit statek, část stavby mu pokaždé trpaslíci zničili. Rozhodl se tedy, že si na ně počíhá, a skutečně v noci viděl, jak z díry v Komorní hůrce vylézají malí mužíčkové s kladivy, háky, pilami a sekerami, a když všechno postavené zničili, vrátili se do svého podzemního příbytku. Hajného však během celé té doby jako by přibil k zemi a teprve po odchodu trpaslíků se dokázal zvednout. Přemýšlel, jak by je jinak potrestal. Věděl, že své příbytky opouštějí, jen když se v první čtvrtině měsíce ukáže úplněk. V tu dobu upevnil na vztyčený trám velký zvon. Trpaslíci totiž věří, že zvuk zvonu je vyhání z podzemí. O půlnoci začal hajný zvonit jako na lesy, ozval se hřmot, z otvoru v Komorní hůrce se vyvalily modré plameny a když hajný přidal na síle, v krovech to najed- nou zavrzalo a celá stavba se sesula a zmizela. Ani hajného už pak nikdo nikdy neviděl."
+            ],
+            "author": "Vernaleken, Mýty a obyčeje, s. 212",
+            "number": 160,
+            "radius": 5000
+        },
+        {
+            "coordinates": [14.475531342038394, 50.3509633347023],
+            "name": "Trpaslík s červenou čepicí",
+            "text": [ 
+                "V malém městě Mělníce na Labi žil před dávnými lety chudý muž jménem Franc Veselý, který si na své ubohé živobytí vydělával tím, že lidem, kteří neuměli psát, sepisoval za nepatrnou odměnu dopisy vzdáleným přátelům a příbuzným, z čehož mu ovšem velký krajíc chleba nekynul. Jednou mezi jedenáctou a dvanáctou v noci ležel takhle v posteli se ženou, která už spala, když vtom se otevřely dveře a do komory vstoupil asi dvě stopy vysoký mužíček s červenou čapkou na hlavě a s hůlkou v ruce; na krku mu na šňůrce visela široká brašnička. Mužíček začal ve světle měsíce poskakovat po jizbě a vůbec prováděl všelijaké špumprnákle. S pomocí hůlky se dokázal vymrštit a několikrát přenést přes manželskou postel tam i zpátky, a pokaždé, když se nad ubohým písařem vznášel, zeptal se: Chceš peníze?",
+                "Když se mistr Franc konečně vzpamatoval a odpověděl Ano!, vzal mužíček z brašničky peníze, rozhodil je kolem postele a se slovy Příště to bude víc! zmizel.",
+                "Písař posbíral zlaťáky, pečlivě je uložil a ženě se o ničem nezmínil. Rozdavačný trpaslík se za stejného křepčení, skákání a dotazování ukázal ještě několikrát, ale čtvrté noci se žena probudila právě ve chvíli, kdy mistr Franc shledával s lampou v ruce po zemi zlaťáky, a na její dotaz se ke všemu přiznal. Apolena byla ovšem velmi zbožná a neměla klidu, dokud se Franc neodebral ke zpovědi; farář však vrtěl nad jeho líčením hlavou a nechtěl mu dát rozhřešení, dokud podezřelé peníze nepoužije na zbožné účely. Tím se svědomí i kapse mistra France znatelně ulehčilo. Jenže trpaslíka taková ne- důvěra do té míry rozhněvala, že když následující noci opět přišel, vrhl se hned ruče na písaře a uštědřil mu hůlkou takových ran, že by to od takového skrčka nikdo nečekal; přitom volal: Abys mi příště uvěřil!",
+                "Písařův křik probudil celé sousedství, jen žena spala dál a jen sténala, jako by měla těžké sny. Teprve když trpaslík zmizel, probudila se a našla vedle sebe muže v bezvědomí."
+            ],
+            "author": "Gebhart, Rakouské pověsti, s.214",
+            "number": 161,
+            "radius": 5000
         }
-        
     ]
 }

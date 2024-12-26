@@ -19,7 +19,7 @@ const jsonDataTemplate = "{\n" +
             "\t],\n" +
             "\t\"author\": \"{{author}}\",\n" +
             "\t\"number\": {{number}},\n" +
-            "\t\"adius\": 5000\n" +
+            "\t\"radius\": 5000\n" +
         "}\n";
 
 const mapLayer = new TileLayer({ source: new OSM() });
