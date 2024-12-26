@@ -1,4 +1,4 @@
-import './style.css';
+import './css/style.css';
 import {Feature, Map, View} from 'ol';
 import {Circle, Point} from 'ol/geom.js';
 import TileLayer from 'ol/layer/Tile';

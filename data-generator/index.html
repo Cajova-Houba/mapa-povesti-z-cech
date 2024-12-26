@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/ol/ol.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Generátor dat pro Mapy Pověstí z Čech</title>
+  </head>
+  <body>
+    <div class="container">
+
+        <form>
+            <div class="row mb-3">
+                <label for="legend-number" class="col col-form-label">Číslo pověsti</label>
+                <div class="col">
+                    <input type="number" id="legend-number" name="legend-number" class="form-control" value="1">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="legend-name" class="col col-form-label">Název</label>
+                <div class="col">
+                    <input type="text" id="legend-name" name="legend-name" class="form-control" value="Praha">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="legend-text" class="col col-form-label">Pověst</label>
+                <div class="col">
+                    <textarea id="legend-text" name="legend-text" class="form-control" rows="3">Pověst o Praze</textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="legend-author" class="col col-form-label">Autor</label>
+                <div class="col">
+                    <input type="text" id="legend-author" name="legend-author" class="form-control" value="Jan Neruda">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="legend-coordinates" class="col col-form-label">Souřadnice:</label>
+                <div class="col">
+                    <input type="text" id="legend-coordinates" name="legend-coordinates" class="form-control" value="14.42076,50.08804">
+                </div>
+            </div>
+            
+            <div class="row mb-3">
+                <div id="map" class="map-small"></div>
+            </div>
+            
+            <a class="btn btn-primary" id="generate-json-data-btn">Generuj</a>
+
+            <div class="row mt-3">
+                <textarea id="legend-json" name="legend-json" readonly="true" class="form-control" rows="15">
+                    {
+                        "coordinates": [13.4527969, 50.0216231],
+                        "name": "Ohnivý sud",
+                        "text": [
+                            "Ve Vysoké Libyni si vodník hrál dokonce na milence jednoho děvčete. Kam se posadil, tam po něm zůstalo mokro. U jedné vsi nedaleko Vysoké Libyně pral muž v rybníce kůže. Když byl s prací téměř hotov, uviděl vodníka, jak se k němu valí v podobě ohnivého sudu. Dal se před ním na útěk, ale čím rychleji běžel, tím rychleji se sud valil, takže muž jen s vypětím sil doběhl do vesnice."
+                        ],
+                        "author": "J. Ábeles z Vysoké Libyně",
+                        "number": 136,
+                        "radius": 5000
+                    }
+                </textarea>
+            </div>
+        </form>    
+    
+        <div class="footer">
+          CajovaHouba 2024
+        </div>
+    </div>
+
+    <script type="module" src="./data-generator.js"></script>
+  </body>
+</html>

@@ -361,6 +361,66 @@
             "author": "J. Ábeles z Vysoké Libyně",
             "number": 136,
             "radius": 5000
+        },
+        {
+            "coordinates": [13.46881643948043, 50.02509238311791],
+            "name": "Vodník spravuje",
+            "text": [ 
+                "Jeden muž z Vysoké Libyně pásl u rybníka stádo. Přišel k němu vodník a nabídl se, že my vyspraví roztrhané boty, když mu za odměnu přinese kus chleba. Pastevec souhlasil a dal mu své boty. Druhého dne byly spravené a vodník dostal svůj kus chleba.",
+                "Jiný pastevec, který pásl v neděli během mše dobytek, si všiml, že z vody vylezl vodník se sekerou a chystal se odseknout ze stromu kus dřeva. Ale nešlo mu to, a tak se zase vrátil do rybníka."
+            ],
+            "author": "J. Ábeles z Vysoké Libyně",
+            "number": 137,
+            "adius": 5000
+        },
+        {
+            "coordinates": [14.809375472725264, 50.16678063762231],
+            "name": "Hastrman prodává ryby",
+            "text": [ 
+                "Nedaleko Brandýsa jsou na Labi stojaté vody podobné rybníkům, kterým se říká tůně. V nich má také přebývat hastrman, který v poledne rdousí drůbež plovoucí po hladině, stejně tak jako lidi. Před Vánocemi prý obchází kolem a prodává ryby; dá se poznat podle toho, že mu z pravé kapsy kabátu crčí voda. Lidé se proto prodavačům nabízejícím ryby dívají na kapsy, zda je mají suché."
+            ],
+            "author": "E. Grünbaum",
+            "number": 140,
+            "adius": 5000
+        },
+        {
+            "coordinates": [14.415956691822538, 49.22389465756518],
+            "name": "Hastrmanovo obydlí",
+            "text": [ 
+                "Jednou žila v Týně nad Vltavou nádenice, která třela bídu s nouzí a nemohla uživit sebe ani své početné děti. Jednoho večera odešla z bytu nejstarší dcera, rozběhla se k Vltavě a tam chodila sem a tam po břehu a naříkala. Její bědování vzbudilo ze spánku vodníka, protože byl právě pátek, kdy je vstup do jeho říše otevřen a on nešťastnici uslyšel. Čiperně vyběhl na práh a zastal tam dívku, jak se právě chystá vrhnout do hlubin a ukončit tak svůj nešťastný život. Vodník vzlétl do výšky, dívku zachytil a zanesl ji do svého příbytku. Tam ji pohostil vybraným jídlem a pitím. Když se ubožačka dost osvěžila, řekl jí vodní duch, že od nynějška u něho zůstane a on se o ni i její bližní postará. Za to mu ale musela sloužit.",
+                "V paláci vládce vod je prostorná místnost, jejíž střed zaujímají velká kachlová kamna s mnoha výstupky. Na nich stojí řada hrníčků plných vody a přikrytých víčky. V těchto hliněných nádobkách přechovává ukrutný duch duše utonulých. V místnosti musela dívka udržovat přísný pořádek a čistotu a nesměla zapomínat na řádné udržování ohně v kamnech; také musela",
+                "denně zametat celý palác. Vymetené smetí, které za to dostávala, se vždy proměnilo ve zlato. Hastrman však dívce přísně zakázal nadzdvihávat víčka hrníčků a s hrozivým výrazem v tváři dodal: Jestli se ze zvědavosti neudržíš a nahlédneš dovnitř, budeš navěky nešťastná.",
+                "Dlouho byl dívce hastrmanův zákaz svatý. Jednoho dne, když se právě v oné místnosti věnovala úklidu, zaslechla zpod jednoho víčka nářek a tiché bědování. Po dlouhém rozmýšlení se odhodlala víčko nadzdvihnout a ejhle! Osvobodila duši svého bratra a zbavila ji trýznivého zajetí. Teď věděla, co je to za hrníčky a proč jich je kolem kamen tolik rozestavěno.",
+                "Když vodník prohlédl hrníčky a zjistil, že jedna duše schází, zavolal si dívku k sobě. Přišla a třásla se po celém těle. Plna strachu se k činu přiznala a na kolenou ho prosila za odpuštění. Duch jí to prominul a dodal: Dej si ale pozor, zvědavko, bude-li se to ještě jednou opakovat, zaplatíš to životem.",
+                "Po mnoho, mnoho let mu dívka věrně sloužila a nikdy ji ani nenapadlo, že by se mohla vrátit domů. Konečně ale přišel den, kdy pocítila silnou touhu domově a přemýšlela, jak by z vodní říše unikla. Jednou v pátek, když vodník opět spal, si sbalila všechny věci včetně zlatého smetí a připravila se na cestu. Rozhodla se ale, že ještě předtím osvobodí všechny ubohé dušičky. Nadzdvihla postupně víčka všech hrníčků, duše vyletěly a radostně volaly: Zaplať ti to pánbůh! Nakonec opustila i ona palác a spěchala pryč. Dlouho bloudila vodním světem a nemohla najít východ. Už slyšela zdálky spílání rozhněvaného vodníka, který se mezitím probudil a uprchlici pronásledoval, když vtom objevila otvor, svižně jím proskočila a ocitla se na břehu, po kterém před lety celá nešťastná a zoufalá chodila. Její matka už byla mrtvá, ale některé ze svých sourozenců zastala ještě živé. Všichni pak dobře žili a užívali bohatství, které s sebou sestra přinesla."
+            ],
+            "author": "Vernaleken, Mýty a obyčeje, s. 178",
+            "number": 146,
+            "adius": 5000
+        },
+        {
+            "coordinates": [13.531068071674358, 50.51654956262382],
+            "name": "Vodník látá a spravuje",
+            "text": [ 
+                "U Jezerky, malého městečka na úpatí Krušných hor, leží u silnice velký rybník, který uzavírá široká a křovím porostlá hráz a jemuž se říká Kamenný rybník. U tohoto rybníka je často vídávat na břehu vodníka. Obvykle si látá šaty a podle venkovanů vystupuje na břeh vždy jen za poledního zvonění, posadí se u hráze hned u vody a šije. Kdo se mu posmívá, toho stáhne pod hladinu; jen těm, kteří ráno před odchodem posnídají pečené housky, nemůže ublížit. Pokud ho kdo urazí a nenajedl se housek, nepomůže mu ani, když předříká zaklínadlo:",
+                "Vodníku, zbluňk, nestahuj mě do tůně, nestahuj mě víc, abych neuvíz.",
+                "Vodník je vždy špatně oblečený. Jeho starý pomačkaný klobouk je plný děr, z nichž často vykukují zelené střapaté vlasy. Tvář má porostlou silnými vousy a otevře-li pusu, jsou vidět velké zelené zuby. Kabátek i kalhoty má vždy potrhané a ušpiněné, a jakmile vyleze na břeh, dá se do spravování. Když někoho naláká k vodě a utopí ho, dlouho se pak neobjeví.",
+                "Jednou ráno nesla děvečka ze statku nahoru do Jezeří zeleninu a aby si zkrátila cestu, namířila si to přes hráz rybníka. Když už byla pomalu na druhé straně, uviděla sedět dole pod hrází stařečka, jak si zašívá kabát a kýve na ni. Děvečka, která si na vodníka nevzpomněla, mu několika slovy vynadala, načež vodník vstal a otevřel pusu. Polekané děvče se rozběhlo s těžkou nůší po hrázi, a vodník za ním. Přes jeho křik mu vyskočil přes nůši na záda a chytil je pod krkem. K smrti vyděšené děvče zvolalo: Ježíšmarjá! a vodník v tom okamžiku zmizel. Děvečka došla na zámek napůl mrtvá a ještě se jí smáli, když jim o vodníkovi vyprávěla. Za tři dny ale zemřela a všichni byli přesvědčeni, že za to může vodník, který se jí dotkl."
+            ],
+            "author": "Vernaleken, Mýty a obyčeje, s. 191",
+            "number": 147,
+            "adius": 5000,
+            "note": "V německém originále je jméno městečka Seesdtadtl, což by měly být Ervěnice: https://www.sagen.at/texte/sagen/oesterreich/allgemein/vernaleken/wassergeister_20.html"
+        },
+        {
+            "coordinates": [15.127563646526038, 49.11097073699244],
+            "name": "Zelení mužíčci",
+            "text": [ 
+                "V Člunku je ve sklepě studna, do které prý vede chodba z jindřichohradeckého zámku. O studni se vypráví, že z ní jednou vylezli muži v zelených kabátech, kteří měli místo jedné nohy koňské kopyto. Když dívky večer předly len, vpadli k nim do světnice, zatřásli kolovrátkem a unesli jednu z nich, kterou pak už nikdo nikdy neviděl."
+            ],
+            "author": "H. Ph. Cand. Ruschko z Člunku",
+            "number": 152,
+            "adius": 5000
         }
         
     ]

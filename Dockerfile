@@ -17,6 +17,7 @@ WORKDIR /home/static
 # Copy the static website
 COPY --from=build /opt/build/dist/ .
 COPY --from=build /opt/build/icons/ ./icons/
+COPY --from=build /opt/build/css/ ./css/
 
 # Run BusyBox httpd
 CMD ["busybox", "httpd", "-f", "-v", "-p", "3000"]
