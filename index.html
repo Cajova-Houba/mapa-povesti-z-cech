@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="node_modules/ol/ol.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+
     <title>Mapa pověstí z Čech</title>
     <style>      
       .ol-popup {
@@ -51,29 +55,37 @@
     </style>
   </head>
   <body>
-    <div id="map" class="map"></div>
-    
-    <div id="popup" class="ol-popup">
-      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
-      <b id="popup-title"></b>
-      <div id="popup-content"></div>
-      <div id="popup-author"></div>
+    <header>
+      <nav class="navbar bg-custom-green-dark sticky-top">
+          <div class="container justify-content-start">
+              <a class="navbar-brand" href="about.html">O projektu</a>
+              <a class="navbar-brand" href="index.html">Mapa pověstí</a>
+          </div>
+      </nav>
+  </header>
+
+    <div class="container-fluid ps-0">
+
+      <div id="map" class="map"></div>
+      
+      <div id="popup" class="ol-popup">
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+        <b id="popup-title"></b>
+        <div id="popup-content"></div>
+        <div id="popup-author"></div>
+      </div>
+
+      <script type="module" src="./main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     </div>
 
-    <p>
-    Mapa zobrazuje místa vybraných pověstí.
-    </p>
-
-
-    Zdroje:
-    <li>
-      <ul>GROHMANN, Joseph Virgil. Pověsti z Čech. Fabula. Praha: Plot, 2009. ISBN 978-80-7428-011-5.</ul>
-    </li>
-
-    <div class="footer">
-      CajovaHouba 2024
-    </div>
-
-    <script type="module" src="./main.js"></script>
+    <footer>
+      <nav class="navbar fixed-bottom bg-custom-green">
+          <div class="container justify-content-center">
+              <span class="navbar-brand">CajovaHouba 2024</span>
+              <a class="navbar-brand" href="https://github.com/Cajova-Houba/mapa-povesti-z-cech" target="_blank"><img src="icons/github-mark.svg" style="height: 25px;" alt="GitHub"> Project GitHub </a>
+          </div>
+      </nav>
+  </footer>
   </body>
 </html>

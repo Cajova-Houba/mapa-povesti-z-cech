@@ -6,7 +6,8 @@ export default {
     rollupOptions: {
         input: {
             main: resolve(__dirname, 'index.html'),
-            dataGenerator: resolve(__dirname, 'data-generator/index.html')
+            dataGenerator: resolve(__dirname, 'data-generator/index.html'),
+            about: resolve(__dirname, 'about.html'),
         }
     }
   },

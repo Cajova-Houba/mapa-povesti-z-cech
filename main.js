@@ -17,7 +17,8 @@ const SOURCE_CITATION="GROHMANN, Joseph Virgil. Pověsti z Čech. Fabula. Praha:
 // https://epsg.io/transform#s_srs=4326&t_srs=3857&x=14.5484770&y=50.1220690
 // EPSG:4326: 14.5484770, 50.1220690
 // EPSG:3857: 1619529.051458, 6467442.940923
-const PRAGUE_COORDINATES = [1619529.051458, 6467442.940923];
+// +- geographical center of Czech Republic
+const MAP_CENTER_POINT = [1707489.4050182032, 6412016.797307877];
 
 const DEFAULT_FEATURE_RADIUS = 15000;
 
@@ -158,7 +159,7 @@ const map = new Map({
     featureLayer
   ],
   view: new View({
-    center: PRAGUE_COORDINATES,
+    center: MAP_CENTER_POINT,
     zoom: 8,
     projection: PROJECTION
   })

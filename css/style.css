@@ -1,14 +1,25 @@
 @import "../node_modules/ol/ol.css";
 
-html, body {
-  margin: 0;
-  height: 100%;
+:root {
+  --custom-green: #99ff99;
+  --custom-green-dark: #4CAF50;
 }
+
+.bg-custom-green-dark {
+  background-color: var(--custom-green-dark);
+}
+
+.bg-custom-green {
+  background-color: var(--custom-green);
+}
+
 .map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
   width: 100%;
+  bottom: 0px;
+
+  /* height of the bootstrap header/navbar */
+  top: 46px;
+  position: absolute;
 }
 
 .map-small {
